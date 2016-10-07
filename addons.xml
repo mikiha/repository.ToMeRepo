@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.ani10" name="אני-10" version="1.1.2" provider-name="ToMeR/Ilan.D‎‏">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="plugin.video.youtube"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <language>he</language>
+    <summary lang="he">תוסף לימודי מבית "אני10"</summary>
+    <description lang="he">יוצרת תכנים ומקור: מאיה קלנר,שידור ועריכה: אילן דוידסקו , יוצר התוסף: תומר חיימוביץ'</description>
+    <disclaimer lang="en">ToMeR For Addons Premium</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addons>
