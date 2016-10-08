@@ -1466,4 +1466,280 @@ Plugin by @koderdude</description>
     <source></source>  
   </extension>
 </addon>
+<addon id="script.module.beautifulsoup4"
+       name="BeautifulSoup4"
+       version="4.4.1.1"
+       provider-name="Leonard Richardson">
+  <requires>
+    <import addon="xbmc.python" version="2.7.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>Beautiful Soup Screen-scraping library</summary>
+    <description>Beautiful Soup sits atop an HTML or XML parser, providing Pythonic idioms for iterating, searching, and modifying the parse tree.</description>
+    <platform>all</platform>
+    <license>MIT</license>
+    <website>http://www.crummy.com/software/BeautifulSoup/bs4/</website>
+  </extension>
+</addon>
+<addon id="script.module.six"
+       name="six"
+       version="1.9.0"
+       provider-name="gutworth">
+  <requires>
+    <import addon="xbmc.python" 
+    		version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>Python 2 and 3 compatibility utilities.</summary>
+    <description>Six is a Python 2 and 3 compatibility library. It provides utility functions for smoothing over the differences between the Python versions with the goal of writing Python code that is compatible on both Python versions. See the documentation for more information on what is provided.</description>
+    <platform>all</platform>
+    <license>MIT</license>
+    <source>https://pypi.python.org/pypi/six</source>
+    <website>https://pypi.python.org/pypi/six</website>
+  </extension>
+</addon>
+<addon id="plugin.video.Vodil" name="Vod IL" version="1.2.1" provider-name="kodi senyor">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="plugin.video.youtube"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <language>he</language>
+    <summary lang="he">הרחבה לצפיה בסרטונים מיוטיוב</summary>
+    <description lang="he">הרחבה לצפיה בתכנים מיוטיוב</description>
+    <disclaimer lang="en">kodi senyor Is Not Affiliated With The Content In This Addon</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="plugin.video.md123movies" name="123Movies" version="1.2.9" provider-name="Mucky Duck">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common" />
+	<import addon="script.module.requests" />
+	<import addon="repository.mdrepo" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Stream Movies From The 123movies WebSite</summary>
+    <description lang="en">This Addon Will Delete Itself Unless You Have http://muckys.mediaportal4kodi.ml As A Source In File Manager.  Special thanks to [COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR] for the iSearch compatibility modifications</description>
+	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="plugin.video.all_wrestling" name="All Wrestling" version="2.0.0" provider-name="RayW1986">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.urlresolver"  version="2.1.2"/> 
+		<import addon="script.module.liveresolver"  version="0.1.28"/> 
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               	library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>Wrestling from allwrestling.net</summary>
+        <description>For help or more information please visit TVADDONS.ag</description>
+		<disclaimer lang="en">The author is not responsible for the media you find in this add-on.</disclaimer>
+    </extension>
+	
+</addon>
+<addon id="script.module.xbmcup" name="XbmcUp" version="0.2.1" provider-name="HAL9000">
+    <requires>
+        <import addon="xbmc.python" version="2.14.0"/>
+    </requires>
+    <extension library="service.py" point="xbmc.service" start="startup"/>
+    <extension point="xbmc.python.module" library="lib"/>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+    </extension>
+</addon>
+<addon id="plugin.video.seretil" name="Seretil" version="2.2.5" provider-name="Freestyle">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.urlresolver" version="1.0.0"/>/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="seretil.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Watch seretil.me</summary>
+        <summary lang="he">seretil</summary>
+        <description lang="en">Watch video fromseretil</description>
+        <description lang="he">SERETIL </description>
+        <disclaimer>הנך כפוף לתנאי השימוש של האתר</disclaimer>
+        <supportedcontent>
+          <content>tvshows</content>
+        </supportedcontent>	
+    </extension>
+ </addon>
+  <addon id="plugin.audio.soundcloud" name="SoundCloud" version="2.0.6" provider-name="bromix">
+	<requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>audio</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="bg">SoundCloud е платформа за разпространяване на аудио.</summary>
+		<summary lang="en">SoundCloud is an online audio distribution platform.</summary>
+		<summary lang="de">Soundcloud ist ein Online-Audio-Vertriebsplattform.</summary>
+		<summary lang="fr">SoundCloud est une plateforme de streaming audio en ligne.</summary>
+		<summary lang="he">סאונדקלאוד הוא פלטפורמת הפצת אודיו באינטרנט.</summary>
+		<summary lang="nl">SoundCloud is een online audio distributie platform.</summary>
+		<description lang="bg">SoundCloud е платформа за разпространение на аудио, която позволява на потребителите да качват, записват, представят и споделят звуците създадени от тях.</description>
+		<description lang="en">SoundCloud is an online audio distribution platform that enables its users to upload, record, promote and share their originally-created sounds.</description>
+		<description lang="de">Soundcloud ist ein Online-Audio-Vertriebsplattform. Benutzer können ihre ursprünglich erstelle Music hochladen, aufnehmen und unter weiteren Benutzern teilen.</description>
+		<description lang="fr">SoundCloud est une plateforme de streaming audio en ligne qui permet aux utilisateurs d'envoyer, d'enregistrer, de promouvoir et partager leurs créations audio originales.</description>
+		<description lang="he">סאונדקלאוד הוא פלטפורמה הפצת אודיו מקוונת המאפשרת למשתמשים שלה להעלות, להקליט, לקדם ולשתף את היצירות שלהם.</description>
+		<description lang="nl">SoundCloud is een online audio distributie platform dat gebruikers in staat stelt om hun eigen muziekcreaties te uploaden, opnemen, promoten en te delen.</description>
+		<disclaimer lang="en"></disclaimer>
+		<language></language>
+		<platform>all</platform>
+		<license>GNU General Public License v2.0</license>
+		<forum>http://forum.kodi.tv/showthread.php?tid=206635</forum>
+		<website>www.soundcloud.com</website>
+		<email>kodi at bromix dot org</email>
+		<source>https://github.com/bromix/plugin.audio.soundcloud</source>
+	</extension>
+</addon>
+<addon id="plugin.video.moviemix" name="Movie Mix" version="2.0.0" provider-name="MetalKettle">
+
+  <requires>
+
+    <import addon="script.module.simplejson" version="3.3.0"/>
+
+    <import addon="xbmc.python" version="2.1.0"/>
+
+    <import addon="script.module.t0mm0.common" version="2.0.0"/>
+
+    <import addon="script.module.metahandler" version="2.5.1"/>
+
+  </requires>
+
+  <extension point="xbmc.python.pluginsource" library="default.py">
+
+        <provides>video</provides>
+
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+
+    <summary lang="en"></summary>
+
+    <description lang="en"></description>
+
+    <platform>all</platform>
+
+  </extension>
+
+</addon>
+<addon id="plugin.video.livemix" name="Live Mix" version="1.0.9" provider-name="MetalKettle">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en"></description>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="plugin.video.karaoketv"
+       name="KaraokeTV"
+       version="1.0.7"
+       provider-name="Hybrid\Blade\Donatello">
+  <requires>
+ <import addon="xbmc.python" version="2.1.0"/>
+ <import addon="script.module.beautifulsoup4" version="4.3.1" />
+ <import addon="script.module.requests" version="2.3.0" />
+ <import addon="script.module.html5lib" version="0.999.0" />
+ 
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">This plugin let you watch karaoke.</summary>
+    <description lang="en">
+    Watch karaoke.
+    For donations: https://goo.gl/5MLzGS
+	Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
+	</description>
+    <platform>all</platform>
+ <language>en</language>
+ <disclaimer> report any issues with this addon to Hybridmag12@gmail.com</disclaimer>
+  </extension>
+</addon>
+<addon id="plugin.audio.tunir" name="Tunir" version="0.0.4" provider-name="Nir Elbaz">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests" version="2.8.1"/>
+    <import addon="script.module.xbmcswift2" version="2.4.0"/>
+    <import addon="script.module.beautifulsoup4" version="4.3.2"/>
+    <import addon="script.module.html5lib" version="0.999.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language>en</language>
+    <summary lang="en">Listen to more than 35000 international radio broadcasts</summary>
+    <summary lang="he">האזינו ליותר מ- 35,000 תוכניות ותחנות רדיו</summary>
+    <description lang="en">Browse a huge collection of radio stations and broadcasts from all around the world and listen the music you like!</description>
+    <description lang="he">דפדפו במגוון עצום של תחנות ותוכניות רדיו מרחבי העולם והאזינו למוסיקה שאתם אוהבים</description>
+    <disclaimer lang="en">The credit for the content goes to the great vTuner. This is an unofficial addon.</disclaimer>
+    <license>GNU GENERAL PUBLIC LICENSE Version 2, June 1991</license>
+    <website>http://nirelbaz.com/</website>
+    <email>nir@nirelbaz.com</email>
+  </extension>
+</addon>
+<addon id="plugin.video.gdrive" version="0.8.0" name="gdrive" provider-name="ddurdle">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video audio image programs</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Listen to music, watch videos and view photos from your Google Drive account</summary>
+        <description>Plays music and video from your Google Drive account.  Not affiliated with Google.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+	<addon> id="plugin.audio.KradioList" name="[COLOR lime]KradioList[/COLOR]" version="1.0.1" provider-name="DNA">
+		<requires>
+			<import addon="xbmc.python" version="2.1.0"/>
+			<import addon="xbmc.addon" version="12.1.0"/>
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="default.py">
+			<provides>audio</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en">The best radio stations on the net</summary>
+			<description lang="en">Tune in to the best radio stations on the net.Send your radio links to:holymankodi@gmail.com</description>
+			<disclaimer lang="en">We do not own or publish the content delivered by the plugin</disclaimer>
+			<platform>all</platform>
+			<license>http://www.gnu.org/licenses/</license>
+			<language>en</language>
+			<forum></forum>
+			<website></website>
+			<email>holymankodi@gmail.com</email>
+			<source></source>
+		</extension>
+</addon>
 </addons>
