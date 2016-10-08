@@ -1045,4 +1045,100 @@ Plugin by @koderdude</description>
         
   </extension>
 </addon>
+<addon id="plugin.video.phstreams" name="Phoenix" version="3.1.13" provider-name="tvaddons.ag">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
+		<import addon="script.module.pyxbmct" version="1.1.4" />
+		<import addon="script.module.urlresolver" version="3.0.0"/>
+		<import addon="script.module.liveresolver" version="0.1.24"/>
+		<import addon="script.video.F4mProxy" version="2.2.3"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Phoenix</summary>
+		<description lang="en">Discover Great Streaming Playlists, Please visit www.tvaddons.ag for help and support!</description>
+		<platform>all</platform>
+		<forum>http://forums.tvaddons.ag/forums/220-PHOENIX-LIVE-STREAMS</forum>
+		<website>http://www.tvaddons.ag/</website>
+		<news>Updated scrapers[CR]Cosmetics</news>
+	</extension>
+</addon>
+<addon id="plugin.video.ukturk" name="UK Turk Playlists" version="3.0.7" provider-name="MetalKettle">
+  <requires>
+    <import addon="script.module.simplejson" version="3.3.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver"  version="2.1.2"/>
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Free Playlists courtesy of @uk_turk</summary>
+    <description lang="en">Free Playlists courtesy of @uk_turk</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="plugin.audio.99fm-playlists"
+       name="99FM Playlists"
+       version="0.4.6"
+       provider-name="nirelbaz">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.requests" version="2.8.1"/>
+        <import addon="script.module.routing" version="0.2.0"/>
+        <import addon="script.module.beautifulsoup4" version="4.3.2"/>
+        <import addon="script.module.html5lib" version="0.999.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">99FM - The greatest songs</summary>
+        <summary lang="he">99FM - השירים הטובים ביותר</summary>
+        <description lang="en">Great collection of songs created by the gifted 99FM radio station music editors
+        </description>
+        <description lang="he">אוסף מעולה של שירים שנערכו על-ידי העורכים המוכשרים של תחנת הרדיו 99FM</description>
+        <disclaimer lang="en">This is an unofficial addon which created to make 99FM website playlists accessible to
+            Kodi users
+        </disclaimer>
+        <language>he</language>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE Version 2, June 1991</license>
+        <website>http://nirelbaz.com/</website>
+        <email>nir@nirelbaz.com</email>
+    </extension>
+</addon>
+<addon id="plugin.video.TheJoker" name="Jokers TV" version="1.0" provider-name="TheJoker">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" /> 
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Jokers TV Addon</summary>
+    <description lang="en">Jokers TV Addon</description>
+    <platform>all</platform>
+  </extension>
+</addon>
 </addons>
