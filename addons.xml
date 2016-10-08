@@ -548,4 +548,97 @@ Plugin by @koderdude</description>
     <source>https://github.com/amet/service.subtitles.opensubtitles</source>    
   </extension>
 </addon>
+<addon id="service.subtitles.podnapisi"
+       name="Podnapisi.net"
+       version="5.4.0"
+       provider-name="amet">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.subtitle.module"
+             library="service.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Podnapisi.net</summary>
+    <description lang="en">Search and download subtitles from Podnapisi.net</description>
+    <disclaimer lang="en"></disclaimer>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source>https://github.com/amet/service.subtitles.podnapisi</source>
+  </extension>
+</addon>
+<addon id="service.subtitles.subscenter" name="Subscenter.org" version="4.0.4" provider-name="CaTz">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+	<import addon="script.common.plugin.cache" version="2.5.5"/>
+  </requires>
+  <extension point="xbmc.subtitle.module" library="service.py"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Subscenter.org</summary>
+    <description lang="en">Search and Download subtitles from subscenter.org. Contributors: rabak, Ori Varon, sagiben</description>
+    <source>https://github.com/XBMCil/service.subtitles.subscenter</source>
+    <language>en</language>
+	<email> </email>
+	<forum> </forum>
+	<website> </website>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+  </extension>
+</addon>
+<addon id="service.subtitles.subscenter.3.3.7" name="Subscenter.org 3.3.7" version="3.3.7" provider-name="CaTz">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+	<import addon="script.common.plugin.cache" version="0.9.1"/>
+  </requires>
+  <extension point="xbmc.subtitle.module" library="service.py"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Subscenter.org</summary>
+    <description lang="en">Search and Download subtitles from subscenter.org. Contributors: rabak, Ori Varon, sagiben</description>
+    <source>https://github.com/XBMCil/service.subtitles.subscenter</source>
+    <language>en</language>
+	<email> </email>
+	<forum> </forum>
+	<website> </website>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+  </extension>
+</addon>
+<addon id="service.subtitles.subtitle" name="Ktuvit.com" version="4.4.3" provider-name="CaTz">
+    <requires>
+        <import addon="xbmc.python" version="2.14.0"/>
+        <import addon="script.common.plugin.cache" version="0.9.1"/>
+    </requires>
+    <extension point="xbmc.subtitle.module" library="service.py"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Ktuvit.com</summary>
+        <description lang="en">Search and Download subtitles from Ktuvit.com. Contributors: rabak, Ori Varon,
+            sagiben
+        </description>
+        <source>https://github.com/XBMCil/service.subtitles.subtitle</source>
+        <language>en</language>
+        <email> </email>
+        <forum> </forum>
+        <website> </website>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    </extension>
+</addon>
+<addon id="service.subtitles.torec"
+       name="Torec"
+       version="1.0.10"
+       provider-name="slmosl">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.common.plugin.cache" version="0.9.1"/>
+    <import addon="script.module.beautifulsoup4" version="4.3.2"/>
+  </requires>
+  <extension point="xbmc.subtitle.module"
+             library="service.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Kodi/XBMC Torec Subtitles allows for downloading hebrew subtitles from the Israeli site Torec.net</summary>
+    <description lang="en">Search and download various hebrew subtitles from the Israeli subtitles site Torec.net.</description>
+    <source>https://github.com/slmosl/service.subtitles.Torec</source>
+    <email></email>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+  </extension>
+</addon>
 </addons>
