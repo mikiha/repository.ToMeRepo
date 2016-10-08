@@ -232,4 +232,58 @@
   </extension>
 
 </addon>
+<addon id="plugin.program.themestomerwizard" name="Themes ToMeR Wizard" version="2.1.1" provider-name="ToMeR">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Themes ToMeR Wizard</summary>
+    <description lang="en">Themes ToMeR Wizard</description>
+	<description lang="he">ערכות נושא בקליק Themes ToMeR Wizard</description>
+	<disclaimer lang="en">Themes ToMeR Wizard</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="plugin.program.update.tomer.wizard" name="Update ToMeR Wizard" version="2.0.3" provider-name="ToMeR">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Update ToMeR Wizard</summary>
+    <description lang="en">Update ToMeR Wizard</description>
+	<description lang="he">עדכוני מערכת ישירה לקודי Update ToMeR Wizard</description>
+	<disclaimer lang="en">Update ToMeR Wizard</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="plugin.video.anarchitv"
+       name="[COLOR yellow]Televiz[/COLOR]"
+       version="1.1.7"
+       provider-name="Kodi Senyor and Acidia Kodi">
+  <requires>
+ <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Televiz</summary>
+    <description>
+	Televiz Live tv channels
+    </description>
+	<disclaimer lang="en">
+	The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners
+	</disclaimer>
+	<license></license>
+    <website>Televiz.net</website>
+    <email></email>
+    <platform>all</platform>
+  </extension>
+</addon>
 </addons>
