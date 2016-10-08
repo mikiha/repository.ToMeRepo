@@ -286,4 +286,169 @@
     <platform>all</platform>
   </extension>
 </addon>
+<addon id="plugin.video.bbts" name="BBTS" version="0.1.6" provider-name="[COLOR yellowgreen]B[/COLOR][COLOR dodgerblue]B[/COLOR][COLOR white]T[/COLOR][COLOR orangered]S[/COLOR] IpTV">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">International TV and radio steams brought to you by - [COLOR yellowgreen]B[/COLOR][COLOR dodgerblue]B[/COLOR][COLOR white]T[/COLOR][COLOR orangered]S[/COLOR] The Source -</summary>
+	<summary lang="he">המקור -[COLOR yellowgreen] B[/COLOR][COLOR dodgerblue]B[/COLOR][COLOR white]T[/COLOR][COLOR orangered]S [/COLOR]- שידורי טלוויזיה ורדיו בינלאומי בחסות</summary>
+    <description lang="en">[COLOR yellowgreen]B[/COLOR][COLOR dodgerblue]B[/COLOR][COLOR white]T[/COLOR][COLOR orangered]S[/COLOR] video plugin is a collection of Live TV and Radio streams from around the world.
+
+[COLOR yellowgreen]B[/COLOR][COLOR dodgerblue]B[/COLOR][COLOR white]T[/COLOR][COLOR orangered]S[/COLOR] source is brought to you by the people and for the people. With your support, we will give back even more for all of us! Let's get started! Website :[COLOR blue][B]http://www.bbtsip.tv[/B][/COLOR]
+Plugin by @koderdude</description>
+    <description lang="he"> הוא אוסף של ערוצי טלוויזיה ורדיו [COLOR yellowgreen] B[/COLOR][COLOR dodgerblue]B[/COLOR][COLOR white]T[/COLOR][COLOR orangered]S [/COLOR]תוסף הוידאו
+בשידור חי מכל רחבי העולם.
+
+המקור הובא לכם על-ידי המשתמשים ולמען המשתמשים. עם התמיכה שלכם, אנו נחזיר בחזרה עוד יותר לכולנו! אז בואו נתחיל!
+
+לאתר אינטרנט:
+[COLOR blue][B]http://www.bbtsip.tv [/B][/COLOR]
+@koderdude תוסף על ידי</description>
+    <disclaimer lang="en">This add-on is maintained by the [COLOR yellowgreen]B[/COLOR][COLOR dodgerblue]B[/COLOR][COLOR white]T[/COLOR][COLOR orangered]S[/COLOR] community and our generator fetches indexs from multiple sources from around the web. We accept no responsibility for the following content, streams and or media. [COLOR yellowgreen]B[/COLOR][COLOR dodgerblue]B[/COLOR][COLOR white]T[/COLOR][COLOR orangered]S[/COLOR] does not host or stream any of the content displayed on this add-on.</disclaimer>
+	<disclaimer lang="he">תוסף זה מתוחזק על ידי קהילת והמחולל שלנו מביאים את האנידקסים ממקורות מרובים מרחבי האינטרנט.
+אנו לא מקבלים שום אחריות לתכנים הבאים, שידורים חיים או תוכן בכל צורה שלא יהיה.
+אנו לא מארחים או משדרים את התוכן שמוצג על-ידי התוסף.</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="plugin.video.ccloudtv"
+       name="cCloud TV"
+       version="1.5.0"
+       provider-name="podgod, Coder Alpha">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.urlresolver"  version="3.0.0" optional="true"/>
+	<import addon="script.module.addon.common" />
+	<import addon="script.module.simplejson" version="2.0.10"/>
+    <import addon="repository.podgod" />   
+    <import addon="script.tvaddons.debug.log" optional="true" />     
+</requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>All the best from cCloud TV</summary>
+    <description>cCloud is an open source cloud based social IPTV service. It is built by the community for the community, where streaming is just a click away. Just click, play and stream. Yes, it's that simple. Just go to [COLOR blue]http://ccloudtv.org[/COLOR] and enjoy:) Please report any channels that are down here [COLOR blue]http://www.tiny.cc/reportchs[/COLOR] Users can now check servers status which can be found at [COLOR blue]http://ccloudtv.org/status[/COLOR]
+    </description>
+	<license>http://www.gnu.org/licenses/</license>
+    <forum>http://ccloudtv.org/forum</forum>
+    <website>http://ccloudtv.org</website>
+    <website>http://facebook.com/ccloudapp</website>
+    <website>http://twitter.com/ccloudapp</website>
+    <email></email>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="plugin.video.israelive" name="[COLOR white]Israe[/COLOR][COLOR blue]L[/COLOR][COLOR white]IVE[/COLOR]" version="4.9.3" provider-name="Benny123, Avigdor (xbmc-israel repo)">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="repository.xbmc-israel" />
+	<import addon="script.module.israeliveresolver" />
+	<import addon="script.module.six" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="[login|startup]"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Benny123's project</summary>
+    <summary lang="he">הפרויקט של Benny123</summary>
+    <description lang="en">Watch Live TV channels from Israel and all over the world.[CR][CR]The addon page and free download:[CR][COLOR blue]http://www.hometheater.co.il/vt219048.html[/COLOR][CR][CR]More addons on The Israeli repo:[CR][COLOR blue]https://github.com/cubicle-vdo/xbmc-israel[/COLOR]</description>
+    <description lang="he">צפיה בשידורי טלויזיה חיים מישראל והעולם.[CR][CR]דף הסברים והורדה בחינם:[CR][COLOR blue]http://www.hometheater.co.il/vt219048.html[/COLOR][CR][CR]תוספים נוספים במקור הישראלי:[CR][COLOR blue]https://github.com/cubicle-vdo/xbmc-israel[/COLOR]</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="plugin.video.last_played" name="Last Played (all sources)" version="1.1.7" provider-name="Luis Rodrigues">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.addon.common" version="2.0.0"/>
+        <import addon="script.module.myconnpy" version="1.1.6"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="default.py" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Last Played (all sources)</summary>
+		<summary lang="pt">Ultimos Vistos (todas as fontes)</summary>
+		<description lang="en">List of the last movies, episodes and music played, including streaming sources from any addon</description>
+		<description lang="pt">Ultimos filmes, episodios e musicas tocadas, incluindo fontes de streaming de qualquer addon</description>
+		<disclaimer lang="en"></disclaimer>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
+		<source>https://github.com/rodrigl/plugin.video.last_played</source>
+	</extension>
+</addon>
+<addon id="plugin.video.MakoTV"
+       name="MakoTV (web)"
+       version="1.1.9"
+       provider-name="xbmc-israel team ([COLOR white]x[/COLOR][COLOR blue]b[/COLOR][COLOR white]m[/COLOR][COLOR blue]c[/COLOR]-[COLOR white]i[/COLOR][COLOR blue]s[/COLOR][COLOR white]r[/COLOR][COLOR blue]a[/COLOR][COLOR white]e[/COLOR][COLOR blue]l[/COLOR] repo)">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="repository.xbmc-israel" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Watch MakoTV Videos</summary>
+		<description lang="en">Watch Mako Video content from MakoTV website.</description>
+		<summary lang="he">צפיה בתכנים מאתר MakoTV</summary>
+		<description lang="he">צפיה בתכנים מאתר MakoTV.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+<addon id="plugin.video.meta" name="Meta" version="1.1.5" provider-name="MetaTeam">
+  <requires>
+    <import addon="xbmc.python" version="2.20.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.futures" version="2.2.0"/>
+  </requires>
+  
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  
+  <extension point="xbmc.service" library="service.py" start="[login|startup]">
+  </extension>
+  
+  <extension point="kodi.context.item" library="context_playable.py">
+    <provides>executable</provides>	
+      <item>
+        <label>$ADDON[plugin.video.meta 30602]</label>
+        <visible>!System.HasAddon(context.meta) + [StringCompare(ListItem.dbtype,movie) | StringCompare(ListItem.dbtype,episode)] + SubString(ListItem.FileNameAndPath, plugin.video.meta)</visible>
+      </item>
+  </extension>
+
+  <extension point="kodi.context.item" library="context_tvshow.py">
+    <provides>executable</provides>	
+      <item>
+        <label>$ADDON[plugin.video.meta 30622]</label>
+        <visible>StringCompare(ListItem.dbtype,tvshow) + SubString(ListItem.Path, plugin.video.meta)</visible>
+      </item>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language></language>
+    <summary>TMDB and TVDB media listing</summary>
+    <description>Browse TMDB and TVDB media</description>
+    <supportedcontent>
+      <content>movies</content>
+      <content>tvshows</content>
+      <content>episodes</content>
+    </supportedcontent>	
+  </extension>
+</addon>
 </addons>
