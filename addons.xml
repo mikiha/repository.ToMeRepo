@@ -174,4 +174,62 @@
     <description lang="en">Use this addon to play F4m v1 and v2 streams</description>
   </extension>
 </addon>
+<addon id="plugin.program.forceclose" name="Force Close kodi" version="1.0.4" provider-name="kodi senyor">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Force Close Kodi</summary>
+    <description lang="he">כיבוי בכח של קודי</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="plugin.program.new.version.tomer.wizard" version="1.0.5"
+
+       name="בדיקת גרסת עדכוני מערכת" provider-name="ToMeR">
+
+  <requires>
+
+  	<import addon="xbmc.python" version="2.1.0"/>
+
+  	<import addon="script.module.addon.common" optional="true" />
+
+  </requires>
+
+  <extension point="xbmc.python.script" library="default.py">
+
+    <provides>executable</provides>
+
+  </extension>
+
+  <extension point="xbmc.service" library="service.py" start="startup">
+
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+
+  	<summary></summary>
+
+  	<description></description>
+
+  	<disclaimer></disclaimer>
+
+  	<language>en</language>
+
+  	<platform>all</platform>
+
+  	<forum></forum>
+
+  	<website></website>
+
+  	<source></source>
+
+  	<email></email>
+
+  </extension>
+
+</addon>
 </addons>
