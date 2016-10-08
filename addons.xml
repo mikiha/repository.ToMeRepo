@@ -2590,19 +2590,6 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
     <website>n/a</website>
   </extension>
 </addon>
-</addon>
-	<requires>
-		<import addon="xbmc.python" version="2.19.0"/>
-	</requires>
-	<extension point="xbmc.python.script" library="default.py">
-		<provides>executable</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Themes for Specto</summary>
-		<description>Themes for Specto.</description>
-		<platform>all</platform>
-	</extension>
-</addon>
 <addon id="service.gdrive.3david" name="GDrive David3 Movies" version="1.0.0" provider-name="3David, TheWiz">
     <requires> 
         <import addon="plugin.video.gdrive"/>
