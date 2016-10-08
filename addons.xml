@@ -2372,7 +2372,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
           <content>tvshows</content>
         </supportedcontent>	
     </extension>
- </addon>
+</addon>
   <addon id="plugin.video.multidown"
        name="MultiDown"
        version="1.0.2"
@@ -2600,5 +2600,5 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
         <platform>all</platform>
         <disclaimer></disclaimer>
     </extension>
- </addon>
+</addon>
 </addons>
