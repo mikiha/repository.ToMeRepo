@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.communityallsorts"
+       name="[B][COLOR gold]-COMMUNITY-ALLSORTS-[/B][/COLOR]"
+       version="4.2"
+       provider-name="[B][COLOR blue]@DIBBO10069[/B][/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" /> 
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[B][COLOR red]-A VAST MAJORITY OF ENTERTAINMENT-[/B][/COLOR]</summary>
+    <description lang="en">[B][COLOR blue]-SOMETHING FOR EVERYONE-[B][COLOR lime]-Due to the nature of our content, we are not responsible for the content streamed to your device and neither do we condone piracy so you must satisfy yourself that either you or the sites accessed for streaming have the copyright agreements in place and are entitled to access this content.
+We do not host or upload any video, films, media file, live streams (avi, mov, flv, mpg, mpeg, divx, dvd rip, mp3, mp4, mkv). the community repo team is not responsible for the accuracy, compliance, copyright, legality, decency, or any other aspect of the content of streamed from your device. If you have any legal issues please contact the appropriate media file owners or host sites.
+We have no control over the links on any site that we provide a link to. If you see any form of infringements, please contact appropriate media file owners or host sites immediately-[/B][/COLOR]</description>
+    <platform>all</platform>
+  </extension>
+</addon>

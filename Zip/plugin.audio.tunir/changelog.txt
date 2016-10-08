@@ -1,0 +1,9 @@
+v0.0.4
+- Stations list fine-tuning
+
+v0.0.3
+- Personal favorites stations list
+- Stations list update
+
+v0.0.2
+- Initial version

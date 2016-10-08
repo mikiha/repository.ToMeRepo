@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.forceclose" name="Force Close kodi" version="1.0.4" provider-name="kodi senyor">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Force Close Kodi</summary>
+    <description lang="he">כיבוי בכח של קודי</description>
+    <platform>all</platform>
+  </extension>
+</addon>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.audio.100fm" name="Radius 100FM" version="0.1.5" provider-name="Nir Elbaz">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests" version="2.8.1"/>
+    <import addon="script.module.xbmcswift2" version="2.4.0"/>
+    <import addon="script.module.beautifulsoup4" version="4.3.2"/>
+    <import addon="script.module.html5lib" version="0.999.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Radius 100FM - Music, that's all</summary>
+    <summary lang="he">רדיוס 100FM - מוסיקה, זה הכל</summary>
+    <description lang="en">Kodi addon of 100FM radio station. The addon offers live listening to the station, charts, music and more</description>
+    <description lang="he">תוסף קודי של תחנת הרדיו רדיוס FM100. התוסף מציע האזנה לשידורי התחנה, מצעד, מוסיקה ועוד</description>
+    <disclaimer lang="en">This is an unofficial addon which created to make 100FM website playlists accessible to Kodi users</disclaimer>
+    <language>he</language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE Version 2, June 1991</license>
+    <website>http://nirelbaz.com/</website>
+    <email>nir@nirelbaz.com</email>
+  </extension>
+</addon>

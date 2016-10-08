@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.audio.kodcast" name="Kodcast" version="0.0.1" provider-name="Nir Elbaz">
+    <requires>
+        <import addon="xbmc.python" version="2.20.0"/>
+        <import addon="script.module.requests" version="2.8.1"/>
+        <import addon="script.module.beautifulsoup4" version="4.3.2"/>
+        <import addon="script.module.routing" version="0.2.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Listen to the best podcasts in Israel</summary>
+        <description lang="en">Listen to hundreds of Israel's finest podcasts: radio stations, lectures, interviews and more!</description>
+        <disclaimer lang="en">All content in this plugin is served as is from iCast website and is an -unofficial- extension of this website.</disclaimer>
+        <language>he</language>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE Version 2, June 1991</license>
+        <website>http://nirelbaz.com/</website>
+        <email>nir@nirelbaz.com</email>
+    </extension>
+</addon>
