@@ -1,0 +1,39 @@
+1.0.10
+- fixed a breaking change from torec.net -> http://www.xn--9dbf0cd.net leading to addon download malfunction
+
+1.0.9
+- fixed disfunctional addon (@myakove)
+
+1.0.8
+- another fix for TOO MANY DL issue (@gklein)
+
+1.0.7
+- added support for zip and rar archives (@gklein)
+
+1.0.6
+- bypass for new issue with TOO MANY DL
+- some minor speedups
+- utf-8 issues (@zofer1)
+
+1.0.5
+- better handling of TOO MANY DL error by performing retries
+
+1.0.4
+- fixed TOO MANY DL issue, again
+
+1.0.3
+- many cleanups
+- fixed case comparing issues with rating system (@matanelgabsi)
+- reduced the number of files created during download (and extraction)
+- fastened the download process a bit
+- possible fix for UnicodeDecodeError (#4)
+- fixed TOO MANY DL issue (myakove)
+
+1.0.2 
+- Fixed an issue with Torec search results parsing
+
+1.0.1 
+- Several minor fixes in order to to adhere XBMC add-on repository standards
+
+1.0.0 
+- Migrated to Gotham style

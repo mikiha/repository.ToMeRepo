@@ -1,0 +1,34 @@
+v0.4.6
+- Fix bug - plays only the first 2 seconds
+- Extra features removed, will be added back on next release
+
+v0.2.9
+- Fix favorites
+- Fix Azam
+
+v0.2.7
+- Songs list
+- Play specific song
+
+v0.2.4
+- Azam - Song icon added
+
+v0.2.3
+- Azam - Music discovery
+
+v0.2.1
+- Reformatting
+
+v0.1.9
+- Bugfixes
+
+v0.1.6
+- Bugfixes
+- Favorites playlists category
+
+v0.1.0
+- Bugfixes
+- Add more playlists
+
+v0.0.1
+- Initial version

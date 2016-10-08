@@ -1,0 +1,14 @@
+[b]1.0.5[/b]
+- new languages added
+- entertainment category added
+
+[b]1.0.4[/b]
+- new icon
+- series category added
+
+[b]1.0.3[/b]
+- romanian added
+- italian added
+
+[b]1.0.1[/b]
+- categories added
