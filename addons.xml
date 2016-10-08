@@ -16,4 +16,19 @@
     <platform>all</platform>
   </extension>
 </addon>
+<addon id="plugin.program.wizardil" name="[COLOR gold]Wizard[/COLOR] [COLOR white]IL[/COLOR]" version="1.0.1" provider-name="[COLOR red]ToMeR[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>program executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="kodibuildsil.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">ToMeR For Addons</summary>
+    <description lang="he">מערכת מושלמת עבור הקודי שלכם</description>
+    <description lang="he">וויזארד כללי להתקנות מוכנות מהירות ובממשק מדהים ובעברית</description>
+    <platform>all</platform>
+  </extension>
+</addon>
 </addons>
