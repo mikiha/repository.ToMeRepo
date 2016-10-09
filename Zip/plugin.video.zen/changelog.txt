@@ -1,3 +1,6 @@
+[B]1.2.11[/B]
+- HD TVshows providers added
+
 [B]1.2.10[/B]
 - Krypton changes
 - Added Movie Provider

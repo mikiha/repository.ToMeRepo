@@ -1185,7 +1185,7 @@ Plugin by @koderdude</description>
         <platform>all</platform>
   </extension>
 </addon>
-<addon id="plugin.program.ump" name="UMP : Universal Media Provider" provider-name="boogiepop" version="0.0.86">
+<addon id="plugin.program.ump" name="UMP : Universal Media Provider" provider-name="boogiepop" version="0.0.88">
     <requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 	</requires>
@@ -2851,7 +2851,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
         <disclaimer></disclaimer>
     </extension>
  </addon>
- <addon id="plugin.video.zen" version="1.2.10" name=" Zen" provider-name="Zen">
+ <addon id="plugin.video.zen" version="1.2.11" name=" Zen" provider-name="Zen">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.urlresolver" version="3.0.0"/>

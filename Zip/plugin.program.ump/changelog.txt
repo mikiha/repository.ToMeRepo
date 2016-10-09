@@ -1,3 +1,12 @@
+2016-10-09: tvdb: fix typo
+2016-10-09: youtube_dl: remove unused extractors
+2016-10-09: sezonlukdizi: fix gvideos, and languages
+2016-10-09: dizimag: fix langs
+2016-10-09: dizibox: add tune, dizigold: add openload, tune, fix langs
+2016-10-09: http: dont follow 301 on specifics
+2016-10-09: facebook: new url provider, dizibox: fixed, providers: use tabs indents
+2016-10-09: cloud: get addon version
+2016-10-09: backwards: raise dependency to XBMC 13, fix locks and memeory leaks,
 2016-10-08: clicky: fix for wrong commit
 2016-10-08: bump.
 2016-10-08: cartoonhd: new link provider, fmovie: new link provider, allmyvideos: new url provider, vidspot: new url provider
