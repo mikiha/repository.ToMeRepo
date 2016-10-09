@@ -1017,7 +1017,7 @@ Plugin by @koderdude</description>
 </addon>
 <addon id="plugin.video.ZemTV-shani"
        name="ZemTV.com"
-       version="5.6.6"
+       version="5.6.4"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -1045,7 +1045,7 @@ Plugin by @koderdude</description>
         
   </extension>
 </addon>
-<addon id="plugin.video.phstreams" name="Phoenix" version="3.1.14" provider-name="tvaddons.ag">
+<addon id="plugin.video.phstreams" name="Phoenix" version="3.1.15" provider-name="tvaddons.ag">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
