@@ -1,0 +1,71 @@
+[B]1.2.10[/B]
+- Krypton changes
+- Added Movie Provider
+- Small code cosmetics
+- Added option to disable caching of sources
+
+[B]1.2.9[/B]
+- Add/fix Providers
+
+[B]1.2.8[/B]
+- Tweak Player and providers match
+
+[B]1.2.7[/B]
+- TvShow Provider
+
+[B]1.2.5[/B]
+- Added free provider
+- Improved Watchlist and Backup/restore
+
+[B]1.2.4[/B]
+- More Debrid Providers
+- Quick code cleanups
+
+[B]1.2.3[/B]
+- Cleaned up control moderator
+
+[B]1.2.2[/B]
+- Improved API infos and lists
+- Fixed providers
+
+[B]1.2.1[/B]
+- Improved scrapers checks and cleantitles
+
+[B]1.2.0[/B]
+- Major update: Added Tv Shows, Fixed and cleaned up providers, code, player
+- Added a Back/Restore for the Watchlist in the tools
+- Changed TvShows and Movies API sources
+- Added Free 5.1 Movies Providers
+
+[B]1.1.4[/B]
+- Debrid Providers with 3D links
+-[B]1.1.3[/B]
+- Providers update
+[B]1.1.2[/B]
+- Providers and cleanup code
+[B]1.1.0[/B]
+- Debrid Links will now need to be enabled in the Providers Settings
+- Fixed providers
+[B]1.0.3[/B]
+- More Free Providers
+- Prodivers cleanups
+[B]1.0.0[/B]
+- Stable Release
+- Player and subtitles fix, providers cleanup/fix/add/remove
+
+[B]0.0.8[/B]
+- More Providers Cleanups
+[B]0.0.7[/B]
+- Cleaned up search calls
+[B]0.0.6[/B]
+- Providers cleanup/fix/add/remove
+[B]0.0.5[/B]
+- Added Downloads, cleanup code, spotlight fixes
+[B]0.0.4[/B]
+- Cleanups and scrapers update
+[B]0.0.3[/B]
+- Sections and resolver fixes
+[B]0.0.2[/B]
+- Navigator fixes
+[B]0.0.1[/B]
+- Initial Release
