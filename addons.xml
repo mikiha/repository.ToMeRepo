@@ -2851,7 +2851,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
         <disclaimer></disclaimer>
     </extension>
  </addon>
- <addon id="plugin.video.zen" version="1.2.12" name=" Zen" provider-name="Zen">
+ <addon id="plugin.video.zen" version="1.2.13" name=" Zen" provider-name="Zen">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.urlresolver" version="3.0.0"/>
@@ -2889,6 +2889,31 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 		<summary>Themes for the Zen Addon</summary>
 		<description></description>
 		<platform>all</platform>
+	</extension>
+</addon>
+<addon id="plugin.video.bob" name="Bob" version="1.0.0" provider-name="Team Bob">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="plugin.video.youtube" version="5.2.1" optional="true"/>
+		<import addon="script.module.pyxbmct" version="1.1.4" />
+		<import addon="script.module.urlresolver" version="2.10.0"/>
+		<import addon="script.module.beautifulsoup" version="3.2.1"/>
+		<import addon="script.module.requests"/>
+		<import addon="script.module.addon.common" version="2.0.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video audio</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Bob</summary>
+		<description lang="en">Bob - Unrestricted.  I Am Not A Dev...I Am Bob</description>
+		<platform>all</platform>
+		<forum>http://noobsandnerds.com/support</forum>
+		<website>www.noobsandnerds.com</website>
+		<news></news>
+		<ref>1ad691c7b9550400bba955a1fc2497ce</ref>
+		<video_guide></video_guide>
+		<video_preview>WdKIzajiBBI</video_preview>
 	</extension>
 </addon>
 </addons>

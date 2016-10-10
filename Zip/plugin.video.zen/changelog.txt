@@ -1,3 +1,7 @@
+[B]1.2.13[/B]
+- Added free movies HD provider
+- Cleanup and providers tweaks
+
 [B]1.2.12[/B]
 - Cache sources can now be disabled in the settings
 
