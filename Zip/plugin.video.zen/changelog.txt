@@ -1,3 +1,6 @@
+[B]1.2.14[/B]
+- Added DEB Header for Debrid links
+
 [B]1.2.13[/B]
 - Added free movies HD provider
 - Cleanup and providers tweaks
