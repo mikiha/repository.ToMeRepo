@@ -1,3 +1,8 @@
+v2.13
+renamed hd section
+fixed a few bugs in hifi2007 world
+minor fix
+
 v2.0.1
 Addon Version updated to 2.x
 NewLogos design
