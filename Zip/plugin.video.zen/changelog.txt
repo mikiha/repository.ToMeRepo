@@ -1,3 +1,6 @@
+[B]1.2.16[/B]
+- New Providers
+
 [B]1.2.15[/B]
 - Cleanup settings and checks
 - Fixed Autoplay
