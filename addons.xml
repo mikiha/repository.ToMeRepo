@@ -2916,4 +2916,21 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 		<video_preview>WdKIzajiBBI</video_preview>
 	</extension>
 </addon>
+<addon id="plugin.video.FREEPORN" name="PORN" version="1.0.0" provider-name="SI FREE UK TV">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">SI FREE UK TV.</summary>
+    <description lang="en">SI FREE UK TV</description>
+    <disclaimer lang="en">SI FREE UK TV.</disclaimer>
+    <language>en</language>
+    <platform>all</platform>
+    <website>SI FREE UK TV</website>
+    <email>SI FREE UK TV</email>
+  </extension>
+</addon>
 </addons>
