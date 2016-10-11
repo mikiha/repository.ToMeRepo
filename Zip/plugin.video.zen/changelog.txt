@@ -1,3 +1,7 @@
+[B]1.2.15[/B]
+- Cleanup settings and checks
+- Fixed Autoplay
+
 [B]1.2.14[/B]
 - Added DEB Header for Debrid links
 
