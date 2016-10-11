@@ -2933,4 +2933,26 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
     <email>SI FREE UK TV</email>
   </extension>
 </addon>
+<addon id="context.meta" name="Meta Context Menu" version="1.0.2.1" provider-name="MetaTeam">
+  <requires>
+    <import addon="xbmc.python" version="2.20.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="plugin.video.meta"/>
+  </requires>
+  
+  <extension point="kodi.context.item" library="context_playable.py">
+    <provides>executable</provides>	
+      <item>
+        <label>$ADDON[plugin.video.meta 30602]</label>
+        <visible>[StringCompare(ListItem.dbtype,movie) | StringCompare(ListItem.dbtype,episode)]</visible>        
+      </item>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language></language>
+    <summary>Library context menu item by Meta</summary>
+    <description>Adds select stream entry to library movies and episodes</description>
+  </extension>
+</addon>
 </addons>
