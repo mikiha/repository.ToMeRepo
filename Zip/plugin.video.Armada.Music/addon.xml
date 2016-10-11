@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.Armada.Music"
+	name="Armada Music"
+	version="1.0.2"
+	provider-name="Donatello- http://Donatellokodi.blogspot.co.il">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Armada Music By Donatello</summary>
+    <description lang="en">Awesome Armada Music videos from YouTube - By Donatello.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
