@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.animaltv" name="Animal TV" provider-name="mhancoc7" version="0.1.8">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0" />
+        <import addon="script.module.liveresolver"/>
+    </requires>
+    <extension library="main.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Watch live streams of animals!</summary>
+        <description>Watch live streams of animals from around the world.
+
+Please visit [COLOR blue]https://www.tvaddons.ag[/COLOR] for addon support!</description>
+        <platform>all</platform>
+        <forum>https://forums.tvaddons.ag/general-live-streams-discussion/</forum>
+        <website>https://tvaddons.ag</website>
+    </extension>
+</addon>
