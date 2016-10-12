@@ -1,3 +1,7 @@
+[B]1.2.17[/B]
+- Clean Providers and duplicates
+- Fix code/general tidy
+
 [B]1.2.16[/B]
 - New Providers
 
