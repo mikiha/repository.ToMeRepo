@@ -1,3 +1,6 @@
+[B]1.2.19[/B]
+- Fix addon not loading at start
+
 [B]1.2.18[/B]
 - Added TV Debrid providers
 - Clean some providers and duplicates
