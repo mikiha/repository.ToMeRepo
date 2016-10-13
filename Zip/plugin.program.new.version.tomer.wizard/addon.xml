@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.program.new.version.tomer.wizard" version="1.0.6"
+<addon id="plugin.program.new.version.tomer.wizard" version="1.0.7"
        name="בדיקת גרסת עדכוני מערכת" provider-name="ToMeR">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
