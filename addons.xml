@@ -187,7 +187,7 @@
     <platform>all</platform>
   </extension>
 </addon>
-<addon id="plugin.program.new.version.tomer.wizard" version="1.0.5"
+<addon id="plugin.program.new.version.tomer.wizard" version="1.0.6"
 
        name="בדיקת גרסת עדכוני מערכת" provider-name="ToMeR">
 
