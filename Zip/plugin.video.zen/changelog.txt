@@ -1,3 +1,7 @@
+[B]1.2.20[/B]
+- Providers Fix/update
+- Deleted obsolete modules
+
 [B]1.2.19[/B]
 - Fix addon not loading at start
 
