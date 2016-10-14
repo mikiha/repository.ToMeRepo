@@ -3081,7 +3081,7 @@ Please visit [COLOR blue]https://www.tvaddons.ag[/COLOR] for addon support!</des
     <email>echocoder@protonmail.com</email>
   </extension>
 </addon>
-<addon id="plugin.program.hello.update" name="התראות עדכונים" version="0.0.2" provider-name="ToMeR">
+<addon id="plugin.program.hello.update" name="התראות עדכונים" version="0.0.3" provider-name="ToMeR">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
 	</requires>
