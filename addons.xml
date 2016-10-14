@@ -1066,7 +1066,7 @@ Plugin by @koderdude</description>
 		<news>Updated scrapers[CR]Cosmetics</news>
 	</extension>
 </addon>
-<addon id="plugin.video.ukturk" name="UK Turk Playlists" version="3.0.7" provider-name="MetalKettle">
+<addon id="plugin.video.ukturk" name="UK Turk Playlists" version="3.0.8" provider-name="MetalKettle">
   <requires>
     <import addon="script.module.simplejson" version="3.3.0"/>
     <import addon="xbmc.python" version="2.1.0"/>
