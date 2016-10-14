@@ -3086,6 +3086,7 @@ Please visit [COLOR blue]https://www.tvaddons.ag[/COLOR] for addon support!</des
 		<import addon="xbmc.python" version="2.14.0"/>
 	</requires>
 	<extension point="xbmc.python.script" library="addon.py">
+    <extension point="xbmc.service" library="service.py" start="startup"
 		<provides>executable</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">

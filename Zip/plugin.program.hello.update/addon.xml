@@ -8,7 +8,6 @@
 		<provides>executable</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-    <extension point="xbmc.service" library="service.py" start="startup"/>
 		<platform>all</platform>
 		<summary lang="he">התראות עדכונים</summary>
 		<description lang="en"></description>
