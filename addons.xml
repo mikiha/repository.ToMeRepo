@@ -3081,31 +3081,6 @@ Please visit [COLOR blue]https://www.tvaddons.ag[/COLOR] for addon support!</des
     <email>echocoder@protonmail.com</email>
   </extension>
 </addon>
-<addon id="plugin.program.hello.update" name="התראות עדכונים" version="0.0.4" provider-name="ToMeR">
-	<requires>
-		<import addon="xbmc.python" version="2.14.0"/>
-	</requires>
-	<extension point="xbmc.python.script" library="addon.py">
-		<provides>executable</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary lang="he">התראות עדכונים</summary>
-		<description lang="en"></description>
-		<license></license>
-		<language></language>
-		<forum></forum>
-		<source></source>
-		<website></website>
-		<email></email>
-		<assets>
-			<icon>resources/icon.png</icon>
-			<fanart>resources/fanart.jpg</fanart>
-			<screenshot>resources/screenshot-01.jpg</screenshot>
-		</assets>
-		<news>Updated the addon to use new addon.xml metadata</news>
-	</extension>
-</addon>
 <addon id="repository.tknorris.beta" name="tknorris Beta Testing Repository" version="1.0.5" provider-name="tknorris">
     <extension point="xbmc.addon.repository" name="tknorris beta testing repository">
 	    <dir>
