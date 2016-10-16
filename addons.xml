@@ -3199,7 +3199,8 @@ Addons Included
 </addon>
 <addon id="plugin.program.hello.update" name="התראות עדכונים" version="0.0.6" provider-name="ToMeR">
 	<requires>
-		<import addon="xbmc.python" version="2.14.0"/>
+	<import addon="xbmc.python" version="2.14.0"/>
+	<import addon="script.service.new.addons" version="1.0.1"/>
 	</requires>
 	<extension point="xbmc.python.script" library="addon.py">
 		<provides>executable</provides>
