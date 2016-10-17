@@ -1,3 +1,13 @@
+[B]1.3.2[/B]
+- Added Ability to import your Tmdb lists in the addon (you need to setup the list id under the addons Tmbd lists settings)
+- Added some more sections for movies
+
+[B]1.3.1.2[/B]
+- Fixed bug in the cleantitle modules
+
+[B]1.3.1[/B]
+- Added HD Movies/tv providers
+
 [B]1.3.0[/B]
 - Providers Cleanup and results check
 
