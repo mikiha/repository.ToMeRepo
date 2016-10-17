@@ -3115,7 +3115,7 @@ Addons Included
 </addon>
 <addon id="plugin.video.OblivionStreams"
        name="Oblivion Streams"
-       version="1.0"
+       version="1.2"
        provider-name="Oblivion Team">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
