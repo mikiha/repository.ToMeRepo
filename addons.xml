@@ -98,7 +98,7 @@
 		</assets>
 	</extension>
 </addon>
-<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2016.10.17.1" provider-name="mrknow" >
+<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2016.10.18.2" provider-name="mrknow" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.requests" version="1.0.0" />
@@ -690,7 +690,7 @@ Plugin by @koderdude</description>
 		<source>https://github.com/marcelveldt/script.skin.helper.service</source>
 	</extension>
 </addon>
-<addon id="script.mrknow.urlresolver" name="Mrknow URLResolver" version="2016.10.17.1" provider-name="mrknow" >
+<addon id="script.mrknow.urlresolver" name="Mrknow URLResolver" version="2016.10.19.1" provider-name="mrknow" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -3222,7 +3222,7 @@ Addons Included
 		<news>Updated the addon to use new addon.xml metadata</news>
 	</extension>
 </addon>
-<addon id="plugin.video.sanctuary" name="Sanctuary" version="0.0.5" provider-name="Communal">
+<addon id="plugin.video.sanctuary" name="Sanctuary" version="0.0.6" provider-name="Communal">
   <requires>
 	<import addon="script.module.beautifulsoup" version="3.2.1"/>
 	<import addon="script.module.beautifulsoup4" />

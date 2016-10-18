@@ -1,5 +1,5 @@
-2016.10.17.01
-    fix - muchmovies
+2016.10.18.02
+    fix - Latest Movies and Latest Episodes
 
 2016.10.06.02
     add - Added Documentaries as Genre
