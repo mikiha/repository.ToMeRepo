@@ -1,0 +1,8 @@
+v1.1 - 
+Added:
+Search Function
+Information Notification Pop-up 
+
+
+v1.0 - 
+Initial Release
