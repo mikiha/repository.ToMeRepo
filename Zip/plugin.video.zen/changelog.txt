@@ -1,3 +1,6 @@
+[B]1.3.6[/B]
+- Fix Providers
+
 [B]1.3.4[/B]
 - Partial Clean of old providers
 
