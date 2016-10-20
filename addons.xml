@@ -603,7 +603,7 @@ Plugin by @koderdude</description>
     <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
   </extension>
 </addon>
-<addon id="service.subtitles.subtitle" name="Ktuvit.com" version="4.4.3" provider-name="CaTz">
+<addon id="service.subtitles.subtitle" name="Ktuvit.com" version="4.4.3.1" provider-name="CaTz">
     <requires>
         <import addon="xbmc.python" version="2.14.0"/>
         <import addon="script.common.plugin.cache" version="0.9.1"/>
