@@ -3313,42 +3313,4 @@ Addons Included
     <platform>all</platform>
   </extension>
 </addon>
-<addon id="service.xbmc.tts"
-       name="Kodi Screen Reader"
-       version="1.0.6"
-       provider-name="Rick Phillips (ruuk), pvagner">
-  <requires>
-    <import addon="xbmc.python" version="2.14.0"/>
-  </requires>
-  <extension point="xbmc.service" library="main.py" start="login"></extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Text to speech for XBMC</summary>
-    <description lang="en">Text to speech for XBMC</description>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <forum>http://forum.xbmc.org/showthread.php?tid=117199</forum>
-    <source>https://github.com/ruuk/service.xbmc.tts</source>
-	<website>http://ruuk.github.io/service.xbmc.tts</website>
-  </extension>
-</addon>
-<addon id="plugin.program.Websit.For.Kodi" name="Websit For Kodi" version="2.1.3.5" provider-name="ToMeR">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.module.pydevd" version="2.1.0" optional="true"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>executable</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary lang="he">הרחבת תוכנה המאפשרת להזין כתובות אתרי אינטרנט,ולצפות בהם ישירות בדפדפן הגוגל מתאים לכל המערכות ההפעלה</summary>
-        <language></language>
-        <description lang="en">/description>
-        <license></license>
-        <source></source>
-        <forum></forum>
-        <email>AddonScriptorDE at yahoo dot de</email>
-        <website></website>
-    </extension>
-</addon>
 </addons>
