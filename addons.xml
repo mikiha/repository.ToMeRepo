@@ -1066,7 +1066,7 @@ Plugin by @koderdude</description>
 		<news>Updated scrapers[CR]Cosmetics</news>
 	</extension>
 </addon>
-<addon id="plugin.video.ukturk" name="UK Turk Playlists" version="3.0.8" provider-name="MetalKettle">
+<addon id="plugin.video.ukturk" name="UK Turk Playlists" version="3.0.9" provider-name="MetalKettle">
   <requires>
     <import addon="script.module.simplejson" version="3.3.0"/>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -1613,7 +1613,7 @@ Plugin by @koderdude</description>
 		<source>https://github.com/bromix/plugin.audio.soundcloud</source>
 	</extension>
 </addon>
-<addon id="plugin.video.moviemix" name="Movie Mix" version="2.0.0" provider-name="MetalKettle">
+<addon id="plugin.video.moviemix" name="Movie Mix" version="2.0.1" provider-name="MetalKettle">
 
   <requires>
 
