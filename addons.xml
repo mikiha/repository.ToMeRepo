@@ -603,7 +603,7 @@ Plugin by @koderdude</description>
     <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
   </extension>
 </addon>
-<addon id="service.subtitles.subtitle" name="Ktuvit.com" version="4.4.4" provider-name="CaTz">
+<addon id="service.subtitles.subtitle" name="Ktuvit.com" version="4.4.5" provider-name="CaTz">
     <requires>
         <import addon="xbmc.python" version="2.14.0"/>
         <import addon="script.common.plugin.cache" version="0.9.1"/>
@@ -624,7 +624,7 @@ Plugin by @koderdude</description>
 </addon>
 <addon id="service.subtitles.torec"
        name="Torec"
-       version="1.1.0"
+       version="1.1.1"
        provider-name="slmosl">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -1017,7 +1017,7 @@ Plugin by @koderdude</description>
 </addon>
 <addon id="plugin.video.ZemTV-shani"
        name="ZemTV.com"
-       version="5.7.7"
+       version="5.7.8"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
