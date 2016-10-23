@@ -1185,7 +1185,7 @@ Plugin by @koderdude</description>
         <platform>all</platform>
   </extension>
 </addon>
-<addon id="plugin.program.ump" name="UMP : Universal Media Provider" provider-name="boogiepop" version="0.0.90">
+<addon id="plugin.program.ump" name="UMP : Universal Media Provider" provider-name="boogiepop" version="0.0.91">
     <requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 	</requires>
@@ -1204,7 +1204,7 @@ Plugin by @koderdude</description>
 		<email>boogiepop@gmx.com</email>
 	</extension>
 </addon>
-<addon id="script.pinsentry" name="PinSentry" version="2.2.4" provider-name="robwebset">
+<addon id="script.pinsentry" name="PinSentry" version="100.2.4" provider-name="robwebset">
 	<requires>
 		<import addon="xbmc.python" version="2.24.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
@@ -2851,7 +2851,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
         <disclaimer></disclaimer>
     </extension>
  </addon>
- <addon id="plugin.video.zen" version="1.3.9" name=" Zen" provider-name="Zen">
+ <addon id="plugin.video.zen" version="1.3.10" name=" Zen" provider-name="Zen">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.urlresolver" version="3.0.0"/>
@@ -2891,7 +2891,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 		<platform>all</platform>
 	</extension>
 </addon>
-<addon id="plugin.video.bob" name="Bob" version="1.0.0" provider-name="Team Bob">
+<addon id="plugin.video.bob" name="Bob" version="1.2.1" provider-name="Team Bob">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" version="5.2.1" optional="true"/>

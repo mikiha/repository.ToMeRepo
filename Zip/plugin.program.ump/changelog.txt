@@ -1,3 +1,9 @@
+2016-10-23: api: change watched media color to dimgray
+2016-10-23: lastfm: try albumimage from lastfm first
+2016-10-23: youtube: prevent restricted mode
+2016-10-23: youtube: use forced user agent
+2016-10-23: prerun: workaround for kodi causes dialogbg to stay still on abnormal termination
+2016-10-23: api: dont shut tm if itsnot inited
 2016-10-23: api:fix dialogpg
 2016-10-22: api: try tyo workaround for dialogpg
 2016-10-22: ump: code clean up
