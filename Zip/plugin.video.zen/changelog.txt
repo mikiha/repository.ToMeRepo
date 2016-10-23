@@ -1,3 +1,6 @@
+[B]1.3.9[/B]
+- Fix Putlocker, MoviesHD
+
 [B]1.3.8[/B]
 - Added Debrid providers and hd free providers
 
