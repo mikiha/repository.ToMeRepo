@@ -1,3 +1,9 @@
+2016-10-24: addon: check latest version before sending logs
+2016-10-24: defs: update addons.xml definition
+2016-10-24: tvdb: fix infos in agenda
+2016-10-24: tvdb: fix tvshowtitle in agenda
+2016-10-24: tvdb: update this week with last2 weeks
+2016-10-24: tvdb: fix for airdates 1 day early
 2016-10-23: api: change watched media color to dimgray
 2016-10-23: lastfm: try albumimage from lastfm first
 2016-10-23: youtube: prevent restricted mode
