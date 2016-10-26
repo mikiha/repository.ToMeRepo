@@ -1,3 +1,5 @@
+2016-10-24: cartoonhd: fix tvshow matching
+2016-10-24: 0.0.92 Version Release
 2016-10-24: addon: check latest version before sending logs
 2016-10-24: defs: update addons.xml definition
 2016-10-24: tvdb: fix infos in agenda

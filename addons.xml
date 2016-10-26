@@ -624,7 +624,7 @@ Plugin by @koderdude</description>
 </addon>
 <addon id="service.subtitles.torec"
        name="Torec"
-       version="1.1.1"
+       version="1.1.2"
        provider-name="slmosl">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -1185,7 +1185,7 @@ Plugin by @koderdude</description>
         <platform>all</platform>
   </extension>
 </addon>
-<addon id="plugin.program.ump" name="UMP : Universal Media Provider" provider-name="boogiepop" version="0.0.92">
+<addon id="plugin.program.ump" name="UMP : Universal Media Provider" provider-name="boogiepop" version="0.0.93">
     <requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 	</requires>
@@ -3464,5 +3464,17 @@ Addons Included
     <language>en</language>
     <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
   </extension>
+</addon>
+<addon id="repository.apollo" name="[COLOR white]Apollo[/COLOR] [COLOR FF028ddd]Group[/COLOR] [COLOR white]Repo[/COLOR]" version="1.0.1" provider-name="ApolloGroup">
+	<extension point="xbmc.addon.repository" name="Apollo Group Repo">
+		<info>http://repo.apollogroup.tv/addons.xml</info>
+		<checksum>http://repo.apollogroup.tv/addons.xml.md5</checksum>
+		<datadir zip="true">http://repo.apollogroup.tv/</datadir>
+	</extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Apollo Group - Watch for the B-E-S-T!</summary>
+        <description>Facebook @KodiApolloGroup</description>
+        <platform>all</platform>
+    </extension>
 </addon>
 </addons>
