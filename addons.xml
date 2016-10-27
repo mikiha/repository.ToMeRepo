@@ -1017,7 +1017,7 @@ Plugin by @koderdude</description>
 </addon>
 <addon id="plugin.video.ZemTV-shani"
        name="ZemTV.com"
-       version="5.8.1"
+       version="5.8.2"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
