@@ -31,7 +31,7 @@
     <platform>all</platform>
   </extension>
 </addon>
-<addon id="plugin.video.exodus" version="2.0.12" name="Exodus" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="2.0.13" name="Exodus" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="repository.exodus" version="1.0.0" />
@@ -720,7 +720,7 @@ Plugin by @koderdude</description>
         <source>http://github.com/ruuk/script.module.youtube.dl</source>
     </extension>
 </addon>
-<addon id="script.module.urlresolver" name="URLResolver" version="3.0.22" provider-name="Eldorado">
+<addon id="script.module.urlresolver" name="URLResolver" version="3.0.23" provider-name="Eldorado">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -2891,7 +2891,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 		<platform>all</platform>
 	</extension>
 </addon>
-<addon id="plugin.video.bob" name="Bob" version="1.2.1" provider-name="Team Bob">
+<addon id="plugin.video.bob" name="Bob" version="1.2.2" provider-name="Team Bob">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" version="5.2.1" optional="true"/>
