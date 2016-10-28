@@ -31,7 +31,7 @@
     <platform>all</platform>
   </extension>
 </addon>
-<addon id="plugin.video.exodus" version="2.0.13.1" name="Exodus" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="2.0.14" name="Exodus" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="repository.exodus" version="1.0.0" />
@@ -157,7 +157,7 @@
 </addon>
 <addon id="script.video.F4mProxy" 
 	     name="F4mProxy" 
-	     version="2.6.5" 
+	     version="2.6.6" 
 	     provider-name="Shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
@@ -1027,7 +1027,7 @@ Plugin by @koderdude</description>
        	<import addon="script.module.elementtree" version="1.2.8"/>
 
 
-    <import addon="plugin.video.f4mTester" version="2.2.3" optional="true" />
+    <import addon="plugin.video.f4mTester" version="2.6.6" optional="true" />
 
   </requires>
   <extension point="xbmc.python.pluginsource"
