@@ -1,5 +1,10 @@
+[B]1.3.11[/B]
+- Removed silly credits to silly people
+- Update Providers
+- New Debrid Provider
+
 [B]1.3.10[/B]
-TV Shows now using TVDB Api for Seasons and Episodes, this should fix missing episodelist -
+- TV Shows now using TVDB Api for Seasons and Episodes, this should fix missing episodelist
 
 [B]1.3.9[/B]
 - Fix Putlocker, MoviesHD
