@@ -1,3 +1,6 @@
+[B]2.0.15[/B]
+- Tweaked metadata
+
 [B]2.0.14[/B]
 - Tweaked metadata timeouts
 

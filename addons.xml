@@ -31,7 +31,7 @@
     <platform>all</platform>
   </extension>
 </addon>
-<addon id="plugin.video.exodus" version="2.0.14.1" name="Exodus" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="2.0.15" name="Exodus" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="repository.exodus" version="1.0.0" />
@@ -1017,7 +1017,7 @@ Plugin by @koderdude</description>
 </addon>
 <addon id="plugin.video.ZemTV-shani"
        name="ZemTV.com"
-       version="5.8.3"
+       version="5.8.4"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -2851,7 +2851,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
         <disclaimer></disclaimer>
     </extension>
  </addon>
- <addon id="plugin.video.zen" version="1.3.12" name=" Zen" provider-name="Zen">
+ <addon id="plugin.video.zen" version="1.3.13" name=" Zen" provider-name="Zen">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.urlresolver" version="3.0.0"/>
@@ -3056,7 +3056,7 @@ Please visit [COLOR blue]https://www.tvaddons.ag[/COLOR] for addon support!</des
 </addon>
 <addon id="plugin.program.echowizard" 
 	     name="[COLOR lime]ECHO[/COLOR] [COLOR white]Wizard[/COLOR]" 
-	     version="1.15" 
+	     version="1.26" 
 	     provider-name="Echo Coder">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
