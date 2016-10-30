@@ -31,7 +31,7 @@
     <platform>all</platform>
   </extension>
 </addon>
-<addon id="plugin.video.exodus" version="2.0.15" name="Exodus" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="2.0.15.1" name="Exodus" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="repository.exodus" version="1.0.0" />
@@ -569,7 +569,7 @@ Plugin by @koderdude</description>
     <source>https://github.com/amet/service.subtitles.podnapisi</source>
   </extension>
 </addon>
-<addon id="service.subtitles.subscenter" name="Subscenter.org" version="4.1.0" provider-name="CaTz">
+<addon id="service.subtitles.subscenter" name="Subscenter.org" version="4.1.1" provider-name="CaTz">
   <requires>
     <import addon="xbmc.python" version="2.14.0"/>
 	<import addon="script.common.plugin.cache" version="2.5.5"/>
@@ -2891,7 +2891,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 		<platform>all</platform>
 	</extension>
 </addon>
-<addon id="plugin.video.bob" name="Bob" version="1.2.2" provider-name="Team Bob">
+<addon id="plugin.video.bob" name="Bob" version="1.2.3" provider-name="Team Bob">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" version="5.2.1" optional="true"/>
