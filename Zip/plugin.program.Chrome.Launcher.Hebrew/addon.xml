@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.program.Chrome.Launcher.Hebrew" name="Chrome Launcher\Hebrew" version="10.1.1.1" provider-name="ToMeR\alelec">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.pydevd" version="2.1.0" optional="true"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="he">הרחבת תוכנה המאפשרת להזין כתובות אתרי אינטרנט,ולצפות בהם ישירות בדפדפן הגוגל מתאים לכל המערכות ההפעלה</summary>
+        <language></language>
+        <description lang="en"></description>
+        <license></license>
+        <source></source>
+        <forum></forum>
+        <email></email>
+        <website></website>
+    </extension>
+</addon>
