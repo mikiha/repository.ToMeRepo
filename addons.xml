@@ -31,7 +31,7 @@
     <platform>all</platform>
   </extension>
 </addon>
-<addon id="plugin.video.exodus" version="2.0.15.1" name="Exodus" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="2.0.17" name="Exodus" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="repository.exodus" version="1.0.0" />
@@ -1017,7 +1017,7 @@ Plugin by @koderdude</description>
 </addon>
 <addon id="plugin.video.ZemTV-shani"
        name="ZemTV.com"
-       version="5.8.4"
+       version="5.8.6"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
