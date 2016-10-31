@@ -1,0 +1,24 @@
+====================================================================
+[COLOR gold]WildHitz addon by[/COLOR] [COLOR blue]DSS[/COLOR]
+====================================================================
+
+[COLOR red][B]V1.0.2[/B][/COLOR]
+- fixed play clips in kodi 17
+
+[COLOR red][B]V1.0.2[/B][/COLOR]
+- change in code
+
+[COLOR red][B]V1.0.1[/B][/COLOR]
+- Fixed dead link
+
+[COLOR red][B]V1.0.0[/B][/COLOR]
+- Add Recent
+- Add Popular
+- Add Search
+
+
+[B]V0.1.1[/B]
+- Remove Top3 there are no update's  
+
+[B]V0.0.1[/B]
+- Release  
