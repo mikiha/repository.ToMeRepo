@@ -1,0 +1,9 @@
+v1.2.0 - Movies & MP3 Indexing Added!
+
+v1.1.0 - Extended Resolvers & Multi Link Enhancements!
+
+v1.0.0 - Pre Release!
+
+
+
+By Merlin Project
