@@ -31,7 +31,7 @@
     <platform>all</platform>
   </extension>
 </addon>
-<addon id="plugin.video.exodus" version="2.0.18" name="Exodus" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="2.0.18.1" name="Exodus" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="repository.exodus" version="1.0.0" />
@@ -3315,7 +3315,7 @@ Addons Included
 </addon>
 <addon id="plugin.video.thepyramid"
        name="The Pyramid"
-       version="1.29"
+       version="1.30"
        provider-name="TomBraiderMovies">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
