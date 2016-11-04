@@ -1015,36 +1015,6 @@ Plugin by @koderdude</description>
 			<platform>all</platform>  
 	</extension>
 </addon>
-<addon id="plugin.video.ZemTV-shani"
-       name="ZemTV.com"
-       version="5.9.0"
-       provider-name="shani">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.urlresolver" version="1.0.0"/>
-	<import addon="plugin.video.youtube" version="2.9.2" optional="true"/>
-    <import addon="script.module.simplejson" version="3.3.0"/>
-       	<import addon="script.module.elementtree" version="1.2.8"/>
-
-
-    <import addon="plugin.video.f4mTester" version="2.6.6" optional="true" />
-
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>ZemTV.tv Kodi Client. Visit TVADDONS.ag for support</summary>
-    <description>Watch ZemTV.com on your XBMC. This plugin fetches the video sources from ZemTV.com and play on XBMC compatible plateforms</description>
-    <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
-    <forum>https://forums.tvaddons.ag/shanis-addon-repository/</forum>
-    <email>@shani_08_kodi</email>
-    <platform>all</platform>
-
-        
-  </extension>
-</addon>
 <addon id="plugin.video.phstreams" name="Phoenix" version="3.1.15" provider-name="tvaddons.ag">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
@@ -2851,33 +2821,6 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
         <disclaimer></disclaimer>
     </extension>
  </addon>
- <addon id="plugin.video.zen" version="1.4.0" name=" Zen" provider-name="Zen">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0" />
-		<import addon="script.module.urlresolver" version="3.0.0"/>
-		<import addon="script.module.metahandler" version="1.0.0" />
-		<import addon="script.zen.artwork" version="1.0.0" />
-		<import addon="script.module.requests" />
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="zen.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Zen Movies/TV Shows</summary>
-		<description lang="en">Watch Movies and TV Shows in High Definition and surround sound. Free providers might not work. Credits to Lambda and Tknorris for the code and most of the calls this addon is using on a modified base  --- TO GET THE BEST OUT OF THIS ADDON YOU NEED TO PAIR IT WITH REAL DEBRID AND ENABLE DEBRID SOURCES IN THE SETTINGS --- </description>
-		<disclaimer lang="en">The Author does not host or share any content, nor is affiliated with the content providers.</disclaimer>
-		<platform>all</platform>
-		<website>http://schism-tv.net</website>
-		<news>Krypton changes - Added Movie Provider - Small code cosmetics - Added option to disable caching of sources</news>
-        <assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-			<screenshot>resources/screenshots/01.jpg</screenshot>
-			<screenshot>resources/screenshots/02.jpg</screenshot>
-			<screenshot>resources/screenshots/03.jpg</screenshot>
-        </assets>
-	</extension>
-</addon>
 <addon id="script.zen.artwork" version="1.2.0" name="Zen Artwork" provider-name="Zen">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
