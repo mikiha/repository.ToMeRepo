@@ -1,3 +1,8 @@
+[B]1.4.0[/B]
+- Added Ability to setup up to 10 lists for Tv Shows and Movies
+- Added Setting to use your personal TMDB Api in the addon 
+- My Lists moved to main page
+
 [B]1.3.15[/B]
 - Fix Moviego - Onemovies
 
