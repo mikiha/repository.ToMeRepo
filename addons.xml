@@ -2834,7 +2834,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 		<platform>all</platform>
 	</extension>
 </addon>
-<addon id="plugin.video.bob" name="Bob" version="1.2.3" provider-name="Team Bob">
+<addon id="plugin.video.bob" name="Bob" version="1.2.4" provider-name="Team Bob">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" version="5.2.1" optional="true"/>
