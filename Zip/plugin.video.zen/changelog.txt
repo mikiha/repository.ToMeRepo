@@ -1,3 +1,6 @@
+[B]1.4.1[/B]
+- Update Providers, Added custom models and nanscrapers
+
 [B]1.4.0[/B]
 - Added Ability to setup up to 10 lists for Tv Shows and Movies
 - Added Setting to use your personal TMDB Api in the addon 
