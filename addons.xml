@@ -2834,7 +2834,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 		<platform>all</platform>
 	</extension>
 </addon>
-<addon id="plugin.video.bob" name="Bob" version="1.2.4" provider-name="Team Bob">
+<addon id="plugin.video.bob" name="Bob" version="1.2.5" provider-name="Team Bob">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" version="5.2.1" optional="true"/>
@@ -3656,5 +3656,22 @@ Addons Included
         <description>This is my repo... I can do whatever I like with it...</description>
         <platform>all</platform>
     </extension>
+</addon>
+<addon id="script.module.stream.resolver" name="Stream Resolver" provider-name="Libor Zoubek" version="1.6.44">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.simplejson" version="2.0.10" />
+    <import addon="script.common.plugin.cache" version="2.5.5"/>
+    <import addon="script.module.demjson" version="2.2.3" />
+    <import addon="script.module.beautifulsoup4" version="4.3.1"/>
+    <import addon="script.module.html5lib" version="0.999.0" />
+  </requires>
+  <extension library="lib" point="xbmc.python.module" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="cs">Kodi CZ/SK plugins common python modules mainly for resolving stream URLs</summary>
+    <description lang="cs">Common python modules pack that is used by kodi cz/sk plugins</description>
+    <license>GNU GPL</license>
+    <platform>all</platform>
+  </extension>
 </addon>
 </addons>
