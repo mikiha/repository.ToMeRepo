@@ -1,3 +1,6 @@
+[B]1.4.2[/B]
+- Update/add Providers
+
 [B]1.4.1[/B]
 - Update Providers, Added custom models and nanscrapers
 
