@@ -1,3 +1,5 @@
+v1.2.1 - Fixed Search After Added Security! User Friendly Messages! New Icon!
+
 v1.2.0 - Movies & MP3 Indexing Added!
 
 v1.1.0 - Extended Resolvers & Multi Link Enhancements!
