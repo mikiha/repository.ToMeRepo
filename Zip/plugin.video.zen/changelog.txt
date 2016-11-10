@@ -1,3 +1,6 @@
+[B]1.4.4[/B]
+- Added new HD Providers
+
 [B]1.4.3[/B]
 - Update Moviegee
 
