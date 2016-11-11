@@ -3814,4 +3814,24 @@ Addons Included
 		<email></email>
 	</extension>
 </addon>
+<addon id="plugin.video.SamiHakabai.Channel.Israel" name="ערוץ סמי הכבאי" version="0.0.5" provider-name="tomer.st">
+    <requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Sami Hakabai.Channel.Israel</summary>
+		<summary lang="he">ערוץ סמי הכבאי - ישראל</summary>
+		<description lang="en">Watch Sami Hakabai channel</description>
+		<description lang="he">צפיה בערוץ סמי הכבאי</description>
+		<license></license>
+		<language></language>
+		<forum></forum>
+		<source></source>
+		<email></email>
+	</extension>
+</addon>
 </addons>
