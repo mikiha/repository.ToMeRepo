@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.Universe.Channel.Israel" name="ערוץ היקום" version="0.0.4" provider-name="tomer.st">
+    <requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Universe.Channel.Israel</summary>
+		<summary lang="he">ערוץ היקום - ישראל</summary>
+		<description lang="en">Watch Universe channel</description>
+		<description lang="he">צפיה בערוץ היקום</description>
+		<license></license>
+		<language></language>
+		<forum></forum>
+		<source></source>
+		<email></email>
+	</extension>
+</addon>

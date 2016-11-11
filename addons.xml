@@ -3674,4 +3674,144 @@ Addons Included
     <platform>all</platform>
   </extension>
 </addon>
+<addon id="plugin.video.Arthur.Channel.Israel" name="ערוץ ארתור" version="0.0.4" provider-name="tomer.st">
+    <requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Arthur.Channel.Israel</summary>
+		<summary lang="he">ערוץ ארתור - ישראל</summary>
+		<description lang="en">Watch Arthur channel</description>
+		<description lang="he">צפיה בערוץ ארתור</description>
+		<license></license>
+		<language></language>
+		<forum></forum>
+		<source></source>
+		<email></email>
+	</extension>
+</addon>
+<addon id="plugin.video.Barbie.Channel.Israel" name="ערוץ ברבי" version="0.0.3" provider-name="tomer.st">
+    <requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Barbie.Channel.Israel</summary>
+		<summary lang="he">ערוץ ברבי - ישראל</summary>
+		<description lang="en">Watch Barbie channel</description>
+		<description lang="he">צפיה בערוץ ברבי</description>
+		<license></license>
+		<language></language>
+		<forum></forum>
+		<source></source>
+		<email></email>
+	</extension>
+</addon>
+<addon id="plugin.video.CanGarimBekeif.Channel.Israel" name="ערוץ כאן גרים בכיף" version="0.0.4" provider-name="tomer.st">
+    <requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">CanGarimBekeif.Channel.Israel</summary>
+		<summary lang="he">ערוץ כאן גרים בכיף - ישראל</summary>
+		<description lang="en">Watch CanGarimBekeif channel</description>
+		<description lang="he">צפיה בערוץ כאן גרים בכיף</description>
+		<license></license>
+		<language></language>
+		<forum></forum>
+		<source></source>
+		<email></email>
+	</extension>
+</addon>
+<addon id="plugin.video.Food.Channel.Israel" name="ערוץ האוכל" version="0.0.4" provider-name="tomer.st">
+    <requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Food.Channel.Israel</summary>
+		<summary lang="he">ערוץ האוכל - ישראל</summary>
+		<description lang="en">Watch Food channel</description>
+		<description lang="he">צפיה בערוץ האוכל</description>
+		<license></license>
+		<language></language>
+		<forum></forum>
+		<source></source>
+		<email></email>
+	</extension>
+</addon>
+<addon id="plugin.video.Kids.Channel.Israel" name="ערוץ הילדים" version="0.0.5" provider-name="tomer.st">
+    <requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Kids.Channel.Israel</summary>
+		<summary lang="he">ערוץ ילדים - ישראל</summary>
+		<description lang="en">Watch kids channel</description>
+		<description lang="he">צפיה בערוץ הילדים</description>
+		<license></license>
+		<language></language>
+		<forum></forum>
+		<source></source>
+		<email></email>
+	</extension>
+</addon>
+<addon id="plugin.video.Kofiko.Channel.Israel" name="ערוץ קופיקו" version="0.0.3" provider-name="tomer.st">
+    <requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Kofiko.Channel.Israel</summary>
+		<summary lang="he">ערוץ קופיקו - ישראל</summary>
+		<description lang="en">Watch Kofiko channel</description>
+		<description lang="he">צפיה בערוץ קופיקו</description>
+		<license></license>
+		<language></language>
+		<forum></forum>
+		<source></source>
+		<email></email>
+	</extension>
+</addon>
+<addon id="plugin.video.Universe.Channel.Israel" name="ערוץ היקום" version="0.0.4" provider-name="tomer.st">
+    <requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Universe.Channel.Israel</summary>
+		<summary lang="he">ערוץ היקום - ישראל</summary>
+		<description lang="en">Watch Universe channel</description>
+		<description lang="he">צפיה בערוץ היקום</description>
+		<license></license>
+		<language></language>
+		<forum></forum>
+		<source></source>
+		<email></email>
+	</extension>
+</addon>
 </addons>

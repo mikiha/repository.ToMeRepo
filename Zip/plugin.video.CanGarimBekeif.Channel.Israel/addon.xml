@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.CanGarimBekeif.Channel.Israel" name="ערוץ כאן גרים בכיף" version="0.0.4" provider-name="tomer.st">
+    <requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">CanGarimBekeif.Channel.Israel</summary>
+		<summary lang="he">ערוץ כאן גרים בכיף - ישראל</summary>
+		<description lang="en">Watch CanGarimBekeif channel</description>
+		<description lang="he">צפיה בערוץ כאן גרים בכיף</description>
+		<license></license>
+		<language></language>
+		<forum></forum>
+		<source></source>
+		<email></email>
+	</extension>
+</addon>
