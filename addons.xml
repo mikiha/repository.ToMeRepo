@@ -98,7 +98,7 @@
 		</assets>
 	</extension>
 </addon>
-<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2016.11.1.1" provider-name="mrknow" >
+<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2016.11.11.1" provider-name="mrknow" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.requests" version="1.0.0" />
@@ -3566,7 +3566,7 @@ Addons Included
         
   </extension>
 </addon>
-<addon id="plugin.video.zen" version="1.4.5" name=" Zen" provider-name="Zen">
+<addon id="plugin.video.zen" version="1.4.6" name=" Zen" provider-name="Zen">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.zen.artwork" />
