@@ -1,3 +1,6 @@
+[B]1.4.6[/B]
+- Refine Alluc Scraper
+
 [B]1.4.5[/B]
 - Added Support for Alluc scraper (you will need to setup your alluc api key in the accounts settings)
 
