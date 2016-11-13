@@ -1,5 +1,12 @@
+[B]1.4.8[/B]
+- Tweak Providers
+
+[B]1.4.7[/B]
+- Added Tv shows provider, Tweak non debrid players
+
 [B]1.4.6[/B]
 - Refine Alluc Scraper
+
 
 [B]1.4.5[/B]
 - Added Support for Alluc scraper (you will need to setup your alluc api key in the accounts settings)
