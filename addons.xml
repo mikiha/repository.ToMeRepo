@@ -3528,7 +3528,7 @@ Addons Included
 </addon>
 <addon id="plugin.video.ZemTV-shani"
        name="Zem"
-       version="5.9.3"
+       version="5.9.4"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -3848,5 +3848,26 @@ Addons Included
     <description lang="en">Search Karaoke Songs.....Official Support....XUNITYTALK.COM</description>
     <platform>all</platform>
   </extension>
+</addon>
+<addon id="plugin.video.jizzplanet" name="Jizz Planet" version="1.0.0" provider-name="Cosmix, tvaddons.ag">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
+		<import addon="script.module.pyxbmct" version="1.1.4" />
+		<import addon="script.module.urlresolver" version="3.0.0"/>
+		<import addon="script.module.liveresolver" version="0.1.24"/>
+		<import addon="script.video.F4mProxy" version="2.2.3"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Jizz Planet</summary>
+		<description lang="en">Jizz Planet - adult based playlists from sites all over the web.</description>
+		<platform>all</platform>
+		<forum></forum>
+		<website></website>
+		<news>- Initial version</news>
+	</extension>
 </addon>
 </addons>
