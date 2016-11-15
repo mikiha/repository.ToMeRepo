@@ -31,7 +31,7 @@
     <platform>all</platform>
   </extension>
 </addon>
-<addon id="plugin.video.exodus" version="2.0.20.1" name="Exodus" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="2.0.20.2" name="Exodus" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="repository.exodus" version="1.0.0" />
@@ -493,7 +493,7 @@ Plugin by @koderdude</description>
     <platform>all</platform>
   </extension>
 </addon>
-<addon id="plugin.video.youtube" name="YouTube" version="5.3.2" provider-name="h0d3nt3uf3l, jdf76, bromix">
+<addon id="plugin.video.youtube" name="YouTube" version="5.3.3" provider-name="h0d3nt3uf3l, jdf76, bromix">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 	</requires>
@@ -720,7 +720,7 @@ Plugin by @koderdude</description>
         <source>http://github.com/ruuk/script.module.youtube.dl</source>
     </extension>
 </addon>
-<addon id="script.module.urlresolver" name="URLResolver" version="3.0.23" provider-name="Eldorado">
+<addon id="script.module.urlresolver" name="URLResolver" version="3.0.24" provider-name="Eldorado">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -2834,7 +2834,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 		<platform>all</platform>
 	</extension>
 </addon>
-<addon id="plugin.video.bob" name="Bob" version="1.2.5" provider-name="Team Bob">
+<addon id="plugin.video.bob" name="Bob" version="1.2.6" provider-name="Team Bob">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" version="5.2.1" optional="true"/>
@@ -3395,7 +3395,7 @@ Addons Included
 		<platform>all</platform>
 	</extension>
 </addon>
-<addon id="service.subtitles.thewiz" name="TheWiz Subs" version="1.1.1" provider-name="TheWiz">
+<addon id="service.subtitles.thewiz" name="TheWiz Subs" version="1.1.2" provider-name="TheWiz">
   <requires>
     <import addon="xbmc.python" version="2.14.0"/>
 	<import addon="script.module.requests" version="2.4.3" />
@@ -3528,7 +3528,7 @@ Addons Included
 </addon>
 <addon id="plugin.video.ZemTV-shani"
        name="Zem"
-       version="5.9.4"
+       version="5.9.5"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
