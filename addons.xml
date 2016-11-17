@@ -3566,7 +3566,7 @@ Addons Included
         
   </extension>
 </addon>
-<addon id="plugin.video.zen" version="1.4.9" name=" Zen" provider-name="Zen">
+<addon id="plugin.video.zen" version="1.4.9.2" name=" Zen" provider-name="Zen">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.zen.artwork" />
