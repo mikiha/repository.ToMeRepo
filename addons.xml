@@ -98,7 +98,7 @@
 		</assets>
 	</extension>
 </addon>
-<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2016.11.11.1" provider-name="mrknow" >
+<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2016.11.18.3" provider-name="mrknow" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.requests" version="1.0.0" />
@@ -2834,7 +2834,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 		<platform>all</platform>
 	</extension>
 </addon>
-<addon id="plugin.video.bob" name="Bob" version="1.2.7" provider-name="Team Bob">
+<addon id="plugin.video.bob" name="Bob" version="1.2.8" provider-name="Team Bob">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" version="5.2.1" optional="true"/>
@@ -3566,7 +3566,7 @@ Addons Included
         
   </extension>
 </addon>
-<addon id="plugin.video.zen" version="1.4.9.3" name=" Zen" provider-name="Zen">
+<addon id="plugin.video.zen" version="1.4.9.4" name=" Zen" provider-name="Zen">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.zen.artwork" />
