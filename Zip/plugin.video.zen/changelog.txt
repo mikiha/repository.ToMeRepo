@@ -1,3 +1,7 @@
+[B]1.4.10[/B]
+- Added Tv Calendar
+- Fix Broken providers
+
 [B]1.4.9[/B]
 - Added Anime and cartoons scrapers
 - Fix Broken providers
