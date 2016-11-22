@@ -2441,7 +2441,6 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
      <platform>all</platform>
   </extension>
 </addon>
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.ufc-finest" name="[B][COLOR red]UFC[/COLOR] [COLOR white]Finest[/COLOR][/B]" version="1.2" provider-name="@DetectiveKodi">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -2627,7 +2626,6 @@ For support, visit: [COLOR hotpink]http://bit.ly/uwc-support[/COLOR]</descriptio
     <platform>all</platform>
   </extension>
 </addon>
-
 <addon id="plugin.video.xxtrucoxx"   
     name="XxTRUCOxX"
     version="1.0.6"
