@@ -3378,6 +3378,7 @@ Addons Included
         <source>https://github.com/HenrikDK/xbmc-common-plugin-functions</source>
         <language></language>
    </extension>
+</addon>
 <addon id="script.module.pydevd" 
 name="pydevd" version="3.4.1" provider-name="Fabio Zadrozny, Paul Backhouse">
 	<requires>
