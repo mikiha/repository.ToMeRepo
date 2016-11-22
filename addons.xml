@@ -2625,7 +2625,8 @@ For support, visit: [COLOR hotpink]http://bit.ly/uwc-support[/COLOR]</descriptio
     <platform>all</platform>
   </extension>
 </addon>
-<addon id="plugin.video.xxtrucoxx"   
+<addon
+    id="plugin.video.xxtrucoxx"   
     name="XxTRUCOxX"
     version="1.0.6"
     provider-name="XxTRUCOxX">
