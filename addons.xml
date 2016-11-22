@@ -1,2 +1,277 @@
 <addons>
+<addon id="context.meta" name="Meta Context Menu" version="1.0.2.1" provider-name="MetaTeam">
+  <requires>
+    <import addon="xbmc.python" version="2.20.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="plugin.video.meta"/>
+  </requires>
+  
+  <extension point="kodi.context.item" library="context_playable.py">
+    <provides>executable</provides>	
+      <item>
+        <label>$ADDON[plugin.video.meta 30602]</label>
+        <visible>[StringCompare(ListItem.dbtype,movie) | StringCompare(ListItem.dbtype,episode)]</visible>        
+      </item>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language></language>
+    <summary>Library context menu item by Meta</summary>
+    <description>Adds select stream entry to library movies and episodes</description>
+  </extension>
+</addon>
+<addon id="plugin.audio.99fm-playlists"
+       name="99FM Playlists"
+       version="0.4.6"
+       provider-name="nirelbaz">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.requests" version="2.8.1"/>
+        <import addon="script.module.routing" version="0.2.0"/>
+        <import addon="script.module.beautifulsoup4" version="4.3.2"/>
+        <import addon="script.module.html5lib" version="0.999.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">99FM - The greatest songs</summary>
+        <summary lang="he">99FM - השירים הטובים ביותר</summary>
+        <description lang="en">Great collection of songs created by the gifted 99FM radio station music editors
+        </description>
+        <description lang="he">אוסף מעולה של שירים שנערכו על-ידי העורכים המוכשרים של תחנת הרדיו 99FM</description>
+        <disclaimer lang="en">This is an unofficial addon which created to make 99FM website playlists accessible to
+            Kodi users
+        </disclaimer>
+        <language>he</language>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE Version 2, June 1991</license>
+        <website>http://nirelbaz.com/</website>
+        <email>nir@nirelbaz.com</email>
+    </extension>
+</addon>
+<addon id="plugin.audio.100fm" name="Radius 100FM" version="0.1.5" provider-name="Nir Elbaz">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests" version="2.8.1"/>
+    <import addon="script.module.xbmcswift2" version="2.4.0"/>
+    <import addon="script.module.beautifulsoup4" version="4.3.2"/>
+    <import addon="script.module.html5lib" version="0.999.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Radius 100FM - Music, that's all</summary>
+    <summary lang="he">רדיוס 100FM - מוסיקה, זה הכל</summary>
+    <description lang="en">Kodi addon of 100FM radio station. The addon offers live listening to the station, charts, music and more</description>
+    <description lang="he">תוסף קודי של תחנת הרדיו רדיוס FM100. התוסף מציע האזנה לשידורי התחנה, מצעד, מוסיקה ועוד</description>
+    <disclaimer lang="en">This is an unofficial addon which created to make 100FM website playlists accessible to Kodi users</disclaimer>
+    <language>he</language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE Version 2, June 1991</license>
+    <website>http://nirelbaz.com/</website>
+    <email>nir@nirelbaz.com</email>
+  </extension>
+</addon>
+<addon id="plugin.audio.housemixes" name="House Mixes" version="1.1.6" provider-name="MetalKettle">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en"></description>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="plugin.audio.jango"
+       name="Jango"
+       version="0.8.6"
+       provider-name="kinkin, art by jokster">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.t0mm0.common" version="1.1.0"/>
+        <import addon="script.module.requests" version="1.1.0"/>
+    </requires>
+	
+    <extension point="xbmc.python.pluginsource"
+               	library="default.py">
+        <provides>audio</provides>
+    </extension>
+	
+	<extension point="xbmc.service" library="playerMP3.py" start="startup" />
+	
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>Free Internet Radio that plays music you'll love!</summary>
+        <description>Free internet radio. Listen to hundreds of genre stations or create your own with your favorite music.</description>
+    </extension>
+	
+</addon>
+<addon id="plugin.audio.kodcast" name="Kodcast" version="0.0.1" provider-name="Nir Elbaz">
+    <requires>
+        <import addon="xbmc.python" version="2.20.0"/>
+        <import addon="script.module.requests" version="2.8.1"/>
+        <import addon="script.module.beautifulsoup4" version="4.3.2"/>
+        <import addon="script.module.routing" version="0.2.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Listen to the best podcasts in Israel</summary>
+        <description lang="en">Listen to hundreds of Israel's finest podcasts: radio stations, lectures, interviews and more!</description>
+        <disclaimer lang="en">All content in this plugin is served as is from iCast website and is an -unofficial- extension of this website.</disclaimer>
+        <language>he</language>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE Version 2, June 1991</license>
+        <website>http://nirelbaz.com/</website>
+        <email>nir@nirelbaz.com</email>
+    </extension>
+</addon>
+	<addon id="plugin.audio.KradioList" name="[COLOR lime]KradioList[/COLOR]" version="1.0.1" provider-name="DNA">
+		<requires>
+			<import addon="xbmc.python" version="2.1.0"/>
+			<import addon="xbmc.addon" version="12.1.0"/>
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="default.py">
+			<provides>audio</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en">The best radio stations on the net</summary>
+			<description lang="en">Tune in to the best radio stations on the net.Send your radio links to:holymankodi@gmail.com</description>
+			<disclaimer lang="en">We do not own or publish the content delivered by the plugin</disclaimer>
+			<platform>all</platform>
+			<license>http://www.gnu.org/licenses/</license>
+			<language>en</language>
+			<forum></forum>
+			<website></website>
+			<email>holymankodi@gmail.com</email>
+			<source></source>
+		</extension>
+	</addon>
+<addon id="plugin.audio.mp3streams"
+       name="MP3 Streams"
+       version="1.2.2"
+       provider-name="kinkin, art by Marquerite">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.t0mm0.common" version="1.1.0"/>
+        <import addon="script.module.mutagen"/>
+        <import addon="script.module.requests" version="1.1.0"/>
+    </requires>
+	
+    <extension point="xbmc.python.pluginsource"
+               	library="default.py">
+        <provides>audio</provides>
+    </extension>
+	
+	<extension point="xbmc.service" library="playerMP3.py" start="startup" />
+	
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>A music streaming collection</summary>
+        <description>Browse and stream your favourite songs and albums</description>
+    </extension>
+	
+</addon>
+<addon id="plugin.audio.soundcloud" name="SoundCloud" version="2.0.6" provider-name="bromix">
+	<requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>audio</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="bg">SoundCloud е платформа за разпространяване на аудио.</summary>
+		<summary lang="en">SoundCloud is an online audio distribution platform.</summary>
+		<summary lang="de">Soundcloud ist ein Online-Audio-Vertriebsplattform.</summary>
+		<summary lang="fr">SoundCloud est une plateforme de streaming audio en ligne.</summary>
+		<summary lang="he">סאונדקלאוד הוא פלטפורמת הפצת אודיו באינטרנט.</summary>
+		<summary lang="nl">SoundCloud is een online audio distributie platform.</summary>
+		<description lang="bg">SoundCloud е платформа за разпространение на аудио, която позволява на потребителите да качват, записват, представят и споделят звуците създадени от тях.</description>
+		<description lang="en">SoundCloud is an online audio distribution platform that enables its users to upload, record, promote and share their originally-created sounds.</description>
+		<description lang="de">Soundcloud ist ein Online-Audio-Vertriebsplattform. Benutzer können ihre ursprünglich erstelle Music hochladen, aufnehmen und unter weiteren Benutzern teilen.</description>
+		<description lang="fr">SoundCloud est une plateforme de streaming audio en ligne qui permet aux utilisateurs d'envoyer, d'enregistrer, de promouvoir et partager leurs créations audio originales.</description>
+		<description lang="he">סאונדקלאוד הוא פלטפורמה הפצת אודיו מקוונת המאפשרת למשתמשים שלה להעלות, להקליט, לקדם ולשתף את היצירות שלהם.</description>
+		<description lang="nl">SoundCloud is een online audio distributie platform dat gebruikers in staat stelt om hun eigen muziekcreaties te uploaden, opnemen, promoten en te delen.</description>
+		<disclaimer lang="en"></disclaimer>
+		<language></language>
+		<platform>all</platform>
+		<license>GNU General Public License v2.0</license>
+		<forum>http://forum.kodi.tv/showthread.php?tid=206635</forum>
+		<website>www.soundcloud.com</website>
+		<email>kodi at bromix dot org</email>
+		<source>https://github.com/bromix/plugin.audio.soundcloud</source>
+	</extension>
+</addon>
+<addon id="plugin.audio.tunir" name="Tunir" version="0.0.4" provider-name="Nir Elbaz">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests" version="2.8.1"/>
+    <import addon="script.module.xbmcswift2" version="2.4.0"/>
+    <import addon="script.module.beautifulsoup4" version="4.3.2"/>
+    <import addon="script.module.html5lib" version="0.999.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language>en</language>
+    <summary lang="en">Listen to more than 35000 international radio broadcasts</summary>
+    <summary lang="he">האזינו ליותר מ- 35,000 תוכניות ותחנות רדיו</summary>
+    <description lang="en">Browse a huge collection of radio stations and broadcasts from all around the world and listen the music you like!</description>
+    <description lang="he">דפדפו במגוון עצום של תחנות ותוכניות רדיו מרחבי העולם והאזינו למוסיקה שאתם אוהבים</description>
+    <disclaimer lang="en">The credit for the content goes to the great vTuner. This is an unofficial addon.</disclaimer>
+    <license>GNU GENERAL PUBLIC LICENSE Version 2, June 1991</license>
+    <website>http://nirelbaz.com/</website>
+    <email>nir@nirelbaz.com</email>
+  </extension>
+</addon>
+    <addon id="plugin.program.addoninstaller" version="1.2.9"
+    	name="Addon Installer" provider-name="tvaddons.ag, Blazetamer">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.addon.common" optional="true" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Addon Browser</summary>
+        <description>Its like an App Store where you'll find Addons for Kodi, and everything is free!</description>
+        <disclaimer>By using this, you take reponsibility for anything that happens.</disclaimer>
+        <language>en</language>
+        <platform>all</platform>
+        <forum>http://forums.tvaddons.ag/forums/156-ADDON-INSTALLER</forum>
+        <website>http://addons.tvaddons.ag/</website>
+        <source></source>
+        <email></email>
+    </extension>
+</addon>
+<addon id="plugin.program.Chrome.Launcher.Hebrew" name="Chrome Launcher\Hebrew" version="10.1.1.1" provider-name="ToMeR\alelec">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.pydevd" version="2.1.0" optional="true"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="he">הרחבת תוכנה המאפשרת להזין כתובות אתרי אינטרנט,ולצפות בהם ישירות בדפדפן הגוגל מתאים לכל המערכות ההפעלה</summary>
+        <language></language>
+        <description lang="en"></description>
+        <license></license>
+        <source></source>
+        <forum></forum>
+        <email></email>
+        <website></website>
+    </extension>
+</addon>
 </addons>
