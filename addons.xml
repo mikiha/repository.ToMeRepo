@@ -3378,7 +3378,7 @@ Addons Included
         <source>https://github.com/HenrikDK/xbmc-common-plugin-functions</source>
         <language></language>
    </extension>
-</addon>
+<addon id="script.module.pydevd" 
 name="pydevd" version="3.4.1" provider-name="Fabio Zadrozny, Paul Backhouse">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
@@ -3830,8 +3830,8 @@ name="pydevd" version="3.4.1" provider-name="Fabio Zadrozny, Paul Backhouse">
         <platform>all</platform>
         <disclaimer></disclaimer>
     </extension>
- </addon>
- <addon id="service.subtitles.opensubtitles" name="OpenSubtitles.org" provider-name="amet" version="5.0.15">
+</addon>
+<addon id="service.subtitles.opensubtitles" name="OpenSubtitles.org" provider-name="amet" version="5.0.15">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
