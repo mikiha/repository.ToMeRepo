@@ -1,3 +1,6 @@
+[B]1.4.11[/B]
+- Update sources and custom shorten link resolvers
+
 [B]1.4.10[/B]
 - Added Tv Calendar
 - Fix Broken providers
