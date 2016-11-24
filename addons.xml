@@ -1330,7 +1330,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 		<source>https://github.com/rodrigl/plugin.video.last_played</source>
 	</extension>
 </addon>
-<addon id="plugin.video.livemix" name="Live Mix" version="2.0.0" provider-name="MetalKettle">
+<addon id="plugin.video.livemix" name="Live Mix" version="2.0.2" provider-name="MetalKettle">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.addon.common" version="2.0.0" />
@@ -2724,7 +2724,7 @@ For support, visit: [COLOR hotpink]http://bit.ly/uwc-support[/COLOR]</descriptio
 </addon>
 <addon id="plugin.video.ZemTV-shani"
        name="Zem"
-       version="6.0.0"
+       version="6.0.1"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
