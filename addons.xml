@@ -2724,7 +2724,7 @@ For support, visit: [COLOR hotpink]http://bit.ly/uwc-support[/COLOR]</descriptio
 </addon>
 <addon id="plugin.video.ZemTV-shani"
        name="Zem"
-       version="6.0.2"
+       version="6.0.3"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
