@@ -1,0 +1,53 @@
+v 2016.11.22
+------------------------------
+- added WSOP 2016 videos
+- added WSOP category for WSOP videos
+- added Others section
+- remove External Addons category from settings
+- remove download path from settings
+
+------------------------------
+v 2016.11.21
+------------------------------
+- added arconaitv catcher
+- remove Discovery RO channels
+- updated few logos
+
+------------------------------
+v 2016.11.20
+------------------------------
+- added Discovery channels
+- added policies
+
+------------------------------
+v 2016.11.19
+------------------------------
+- added tv2go channels 11,10,22
+
+------------------------------
+v 2016.11.18
+------------------------------
+- clean folders
+
+------------------------------
+v 2016.11.13
+------------------------------
+- added Sky Sports channels
+- added Eurosport channels
+
+------------------------------
+v 2016.11.12
+------------------------------
+- all channels to main menu
+- remove favourites option
+
+------------------------------
+v 2016.11.11
+------------------------------
+- Initial new repo 
+
+
+
+
+
+
