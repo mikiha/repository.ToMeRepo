@@ -1961,7 +1961,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
         </supportedcontent>	
     </extension>
 </addon>
-<addon id="plugin.video.salts" version="2.0.121.1" name="Stream All The Sources" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.122" name="Stream All The Sources" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
@@ -2724,7 +2724,7 @@ For support, visit: [COLOR hotpink]http://bit.ly/uwc-support[/COLOR]</descriptio
 </addon>
 <addon id="plugin.video.ZemTV-shani"
        name="Zem"
-       version="6.0.3"
+       version="6.0.5"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -2762,7 +2762,7 @@ For support, visit: [COLOR hotpink]http://bit.ly/uwc-support[/COLOR]</descriptio
         
   </extension>
 </addon>
-<addon id="plugin.video.zen" version="1.4.12" name=" Zen" provider-name="Zen">
+<addon id="plugin.video.zen" version="1.4.13" name=" Zen" provider-name="Zen">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.zen.artwork" />
@@ -3483,7 +3483,7 @@ Addons Included
     <description lang="en">Collection of commonly used addon routines to simplify addon development.</description>
   </extension>
 </addon>
-<addon id="script.module.tknorris.shared" name="TKNorris Common Libraries" version="0.0.12" provider-name="tknorris">
+<addon id="script.module.tknorris.shared" name="TKNorris Common Libraries" version="0.0.13" provider-name="tknorris">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
