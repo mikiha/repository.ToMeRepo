@@ -3983,4 +3983,21 @@ Addons Included
     <platform>all</platform>
   </extension>
 </addon>
+    <addon id="service.updates.tomerepo" name="מערכת עדכונים אוטומטיים" version="1.0.3" provider-name="ToMeR">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.service" library="resources/img/service.py" start="login"/>
+    <extension point="xbmc.addon.metadata">
+        <summary></summary>
+        <description></description>
+        <disclaimer></disclaimer>
+        <language>he</language>
+        <platform>all</platform>
+        <forum></forum>
+        <website></website>
+        <source></source>
+        <email></email>
+    </extension>
+</addon>
 </addons>
