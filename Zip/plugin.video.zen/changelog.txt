@@ -1,3 +1,6 @@
+[B]1.4.14[/B]
+- Update API for Missing Seasons,Episodes
+
 [B]1.4.13[/B]
 - Update and NEW Providers
 
