@@ -1,3 +1,23 @@
+v 2016.11.27
+------------------------------
+- added TIVIX (http://tivix.co) live tv website - Russian,Ukrainian,Belarus,British channels
+- added Live TV Websites section
+
+------------------------------
+v 2016.11.26
+------------------------------
+- fix Facebook catcher to get multi live streams from page
+- update all files from SportsDevil v2016.11.20
+
+------------------------------
+v 2016.11.25
+------------------------------
+- added channel LiveSportIL Facebook page (auto get live stream)
+- added Facebook catcher
+- added IsraMedia channels 10,22
+- added IsraMedia catcher
+
+------------------------------
 v 2016.11.22
 ------------------------------
 - added WSOP 2016 videos
